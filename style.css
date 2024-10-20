@@ -1,173 +1,291 @@
-* {
+*{
     margin: 0;
     padding: 0;
-  }
-  
-  body {
-    font-family: "Montserrat", sans-serif;
-  }
-  
-  a {
+}
+body{
+    font-family: "Montserrat",sans-serif;
+}
+a{
     text-decoration: none;
-  }
-  .center{
+}
+.center{
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
-  }
-
-  .top {
-    height: 735px;
-    background-image: url(img/igra1.jpeg);
+}
+.multi-bg-example {
+    background-color:  rgb(225, 255, 143);
+    height: 900px;
+    width: 1440px;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-  .text1{
+    background-image: url(img/Group1.svg);
+    background-position: 1550px -350px;
+    block-size: 750px;
+}
+.text1{
     color: rgb(32, 32, 39);
+    font-family: Montserrat;
     font-size: 64px;
     font-weight: 700;
     line-height: 78px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 46px;
     margin-left: 120px;
-    margin-right: 390px;
+    padding-top: 196px;
   }
   .block{
-
     color: rgb(32, 32, 39);
+    font-family: Montserrat;
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
-   font-family: Montserrat;
-   margin-left: 120px;
-   margin-right: 390px;
+    margin-left: 120px;
+    margin-top: 24px;
   }
-  .button2{
-  background: rgb(0, 0, 0);
-  text-align: center;
-  border: 1px solid #000;
-  box-sizing: border-box;
-  border-radius: 60px;
-  margin-top: 18px;
-  height: 55px;
-  width: 247px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  margin-left: 5px;
-  color: rgb(255, 255, 255);
-  font-family: Montserrat;
-  font-size: 24px;
-  margin-left: 120px;
-margin-right: 246px;
-margin-top: 48px;
-  }
-.igra2{
-    display: flex;
-    margin-left: 63px;
-  }
-.igra1{
-    margin-left: 156px;
-    margin-top: 69px;
-      }
-.igra3{
-    margin-left: 1011px;
-}
-.igra4{
-    margin-left: 948px;
-}
-.igra5{
-position: absolute;
-margin-left: 1160px;
-margin-top: -260px;
-transform: rotate(1.23deg);
-}
-.igra6{
-    position: absolute;
-    margin-left: 1010px;
-}
-.igra7{
-    position: absolute;
-    margin-left: 600px;
-    margin-top: -180px;
-}
-.igra8{
-    position: absolute;
-    margin-left: 250px;
-    margin-top: -230px;
-}
-.igra9{
-    position: absolute;
-    margin-left: 270px;
-    margin-top: -150px;
-}
-.igra10{
-    position: absolute;
-    margin-left: 395px;
-    margin-top: 98px;
-
-}
-.for-box{
-    height: 1440px;
-    background-image: url(img/igra2.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-  }
-  .box-igra1{
-color: rgb(255, 255, 255);
+ .button2{
+    background: rgb(0, 0, 0);
+    text-align: center;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 60px;
+    margin-top: 18px;
+    height: 55px;
+    width: 247px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 24px;
+    margin-left: 120px;
+  margin-right: 246px;
+  margin-top: 48px;
+    } 
+    .button2:hover{
+        background: rgb(255, 253, 253);
+        text-align: center;
+        box-sizing: border-box;
+        border-radius: 60px;
+        margin-top: 18px;
+        height: 55px;
+        width: 247px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        margin-left: 5px;
+        color: rgb(2, 2, 2);
+        font-family: Montserrat;
+        font-size: 24px;
+        margin-left: 120px;
+      margin-right: 246px;
+      margin-top: 48px;
+        }
+        .igra2{
+            position: absolute;
+            display: flex;
+            margin-left: 63px;
+            margin-top: 94px;
+          }
+        .igra1{
+            position: absolute;
+            margin-left: 156px;
+            margin-top: 69px;
+              }
+              .igra3{
+                position: absolute;
+                margin-left: 450px;
+                margin-top: 100px;
+                width: 83px;
+            }
+            .igra4{
+                position: absolute;
+                margin-left: 400px;
+                margin-top: 60px;
+                width: 37px;
+            }
+            .for-box{
+                height: 1550px;
+                background-image: url(img/igra2.jpeg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 1440px;
+            
+              }
+              .box-igra1{
+                color: rgb(255, 255, 255);
+                font-family: Montserrat;
+                font-size: 64px;
+                font-weight: 700;
+                line-height: 78px;
+                text-align: left;
+                margin-left: 119px;
+                padding-top: 94px;
+              }
+            .box-igra2{
+                color: rgb(255, 255, 255);
+                font-family: Montserrat;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 32px;
+                text-align: left;
+                margin-left: 119px;
+                margin-top: 24px;
+            }
+       .cart1{
+        background-color: #fff;
+        width: 378px;
+        padding-bottom: 1px;
+        border-radius: 20px;
+      
+        
+       }
+       .cart2{
+        background-color: #fff;
+        width: 378px;
+        border-radius: 20px;
+      
+       }
+       .cart3{
+        background-color: #fff;
+        width: 378px;
+        padding-bottom: 1px;
+        border-radius: 20px;
+        transform: scale(1.0);
+        transition: ls;
+      
+        
+       }
+       .cart4{
+        background-color: #fff;
+        width: 378px;
+        padding-bottom: 1px;
+        border-radius: 20px;
+       
+      
+       }
+       .cart5{
+        background-color: #fff;
+        width: 378px;
+        padding-bottom: px;
+        border-radius: 20px;
+        margin-top:40px;
+     
+      
+       }
+       .cart6{
+        background-color: #fff;
+        width: 378px;
+        padding-bottom: 1px;
+        border-radius: 20px;
+       }
+       .cart1:hover{
+        background-color: #fff;
+        width: 378px;
+        border-radius: 20px;
+        transform: scale(1.1);
+        transition: ls;
+       }
+       .cart2:hover{
+        background-color: #fff;
+        width: 378px;
+        border-radius: 20px;
+        transform: scale(1.1);
+        transition: ls;
+       }
+       .cart3:hover{
+        background-color: #fff;
+        width: 378px;
+        border-radius: 20px;
+        transform: scale(1.1);
+        transition: ls;
+       }
+       .cart4:hover{
+        background-color: #fff;
+        width: 378px;
+        border-radius: 20px;
+        transform: scale(1.1);
+        transition: ls;
+       }
+       .cart5:hover{
+        background-color: #fff;
+        width: 378px;
+        border-radius: 20px;
+        transform: scale(1.1);
+        transition: ls;
+       }
+       .cart6:hover{
+        background-color: #fff;
+        width: 378px;
+        border-radius: 20px;
+        transform: scale(1.1);
+        transition: ls;
+       }
+       .cart-img1{
+       width: 378px;
+       }
+       .cart-img2{
+        width: 378px;
+        }
+        .cart-img3{
+            width: 378px;
+            }
+            .cart-img4{
+            width: 378px;
+             }
+           .cart-img5{
+            width: 378px;
+            }
+           .cart-img6{
+             width: 378px;
+             }
+       .text2{
+        border-radius: 52.58px;
+        background: rgb(247, 247, 247);
+        color: rgb(32, 32, 39);
 font-family: Montserrat;
-font-size: 64px;
+font-size: 16px;
+font-weight: 500;
+line-height: 35px;
+width: 108px;
+height: 36px;
+margin-left: 16px;
+margin-top: 8px;
+text-align: center;
+       }  
+      .text3{
+        color: rgb(32, 32, 39);
+font-family: Montserrat;
+font-size: 32px;
 font-weight: 700;
-line-height: 78px;
-margin-left: 119px;
-padding-top: 94px;
-  }
-.box-igra2{
-color: rgb(255, 255, 255);
-font-family: Montserrat;
-font-size: 24px;
-font-weight: 400;
-line-height: 32px;
-margin-left: 119px;
-padding-top: 24px;
-width: 566px;
-}
-.box1{
-    width: 350px;
-    transform: scale(1.0);
-}
-.box1:hover{
-    width: 350px;
-    transform: scale(1.1);
-    transition: ls;
-}
-.box-ru{
-    margin-left: 100px;
-    display: flex;
+line-height: 39px;
+letter-spacing: 0px;
+text-align: left;
+margin-left: 16px;
+margin-top: 16px;
+margin-bottom: 20px;
+      } 
+      .cart-box{
+        margin-left: 119px;
+        margin-top: 40px;
+        gap: 25px;
+        display: flex;
     flex-wrap: wrap;
-    margin-top: 72px;
-}
-.star11 {
+      }
+      .star12{
         position: absolute;
-        margin-left: 730px;
+        margin-left: 1000px;
         margin-top: -200px;
-        width: 450px;
-        transform: rotate(-10.23deg);
-}
-.star12{
-    position: absolute;
-    position: absolute;
-    margin-left: -80px;
-    margin-top: 320px;
-    width: 32px;
-}
-.star13{
-    position: absolute;
-    position: absolute;
-    margin-left: -40px;
-    margin-top: 370px;
-    width: 54px;
-}
+        transform: scale(1.0);
+        transition: ls;
+      }
+      .star11{
+        position: absolute;
+        margin-left: -80px;
+        margin-top: 320px;
+        width: 32px;
+      }
+      .star10{
+        position: absolute;
+        margin-left: -40px;
+        margin-top: 370px;
+        width: 54px;
+    }
