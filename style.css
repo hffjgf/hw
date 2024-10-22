@@ -15,10 +15,9 @@ a{
 .multi-bg-example {
     background-color:  rgb(225, 255, 143);
     height: 900px;
-    width: 1440px;
     background-repeat: no-repeat;
     background-image: url(img/Group1.svg);
-    background-position: 1550px -350px;
+    background-position: calc(100% + 489px) calc(0% - 334px);
     block-size: 750px;
 }
 .text1{
@@ -103,12 +102,9 @@ a{
             }
             .for-box{
                 height: 1550px;
-                background-image: url(img/igra2.jpeg);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-                width: 1440px;
-            
+                background-color: rgb(32, 32, 39);
+                position: relative;
+             
               }
               .box-igra1{
                 color: rgb(255, 255, 255);
@@ -129,6 +125,7 @@ a{
                 text-align: left;
                 margin-left: 119px;
                 margin-top: 24px;
+               
             }
        .cart1{
         background-color: #fff;
@@ -264,28 +261,28 @@ margin-top: 16px;
 margin-bottom: 20px;
       } 
       .cart-box{
-        margin-left: 119px;
         margin-top: 40px;
         gap: 25px;
         display: flex;
     flex-wrap: wrap;
+    margin-top: 72px;
       }
       .star12{
         position: absolute;
-        margin-left: 1000px;
-        margin-top: -200px;
         transform: scale(1.0);
         transition: ls;
+        right: 118px;
+        top: 88px;
       }
       .star11{
         position: absolute;
-        margin-left: -80px;
-        margin-top: 320px;
         width: 32px;
+        right: 1650px;
+        top: 750px;
       }
       .star10{
+        top: 800px;
         position: absolute;
-        margin-left: -40px;
-        margin-top: 370px;
-        width: 54px;
+        width: 55px;
+        right: 1580px;
     }
