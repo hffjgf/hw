@@ -1,560 +1,393 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: "Montserrat",sans-serif;
+
+body {
+  font-family: "Montserrat", sans-serif;
 }
-a{
-    text-decoration: none;
+
+a {
+  text-decoration: none;
 }
-.center{
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
 }
+
 .multi-bg-example {
-    background-color:  rgb(225, 255, 143);
-    height: 900px;
-    background-repeat: no-repeat;
-    background-image: url(img/Group1.svg);
-    background-position: calc(100% + 489px) calc(0% - 334px);
-    block-size: 750px;
+  background-color: rgb(225, 255, 143);
+  height: 900px;
+  background-repeat: no-repeat;
+  background-image: url(img/Group1.svg);
+  background-position: calc(100% + 489px) calc(0% - 334px);
+  block-size: 750px;
 }
-.text1{
-    color: rgb(32, 32, 39);
-    font-family: Montserrat;
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 78px;
-    padding-top: 196px;
-  }
-  .block{
-    color: rgb(32, 32, 39);
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 32px;
-    margin-top: 24px;
-  }
- .button2{
-    background: rgb(0, 0, 0);
-    text-align: center;
-    border: 1px solid #000;
-    box-sizing: border-box;
-    border-radius: 60px;
-    margin-top: 18px;
-    height: 55px;
-    width: 247px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
-    margin-left: 5px;
-    color: rgb(255, 255, 255);
-    font-family: Montserrat;
-    font-size: 24px;
+
+.text1 {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  padding-top: 196px;
+}
+
+.block {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 24px;
+}
+
+.button2 {
+  background: rgb(0, 0, 0);
+  text-align: center;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  border-radius: 60px;
+  margin-top: 18px;
+  height: 55px;
+  width: 247px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  margin-left: 5px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 24px;
   margin-right: 246px;
   margin-top: 48px;
-    } 
-    .button2:hover{
-        background: rgb(255, 253, 253);
-        text-align: center;
-        box-sizing: border-box;
-        border-radius: 60px;
-        margin-top: 18px;
-        height: 55px;
-        width: 247px;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 19px;
-        margin-left: 5px;
-        color: rgb(2, 2, 2);
-        font-family: Montserrat;
-        font-size: 24px;
-      margin-right: 246px;
-      margin-top: 48px;
-        }
-        .igra2{
-            position: absolute;
-            display: flex;
-            margin-top: 94px;
-            right: 1600px;
-          }
-        .igra1{
-            position: absolute;
-            margin-top: 69px;
-              }
-              .igra3{
-                position: absolute;
-                margin-left: 450px;
-                margin-top: 100px;
-                width: 83px;
-            }
-            .igra4{
-                position: absolute;
-                margin-left: 400px;
-                margin-top: 60px;
-                width: 37px;
-            }
-            .for-box{
-                background-color: rgb(32, 32, 39);
-                position: relative;
-                height: 1500px;
-              }
+}
 
-              .for-box1{
-                background-color: rgb(32, 32, 39);
-                position: relative;
-                height: 3500px;
-              }
-            .box-igra2{
-                color: rgb(255, 255, 255);
-                font-family: Montserrat;
-                font-size: 24px;
-                font-weight: 400;
-                line-height: 32px;
-                text-align: left;
-                margin-top: 24px;
-               
-            }
-      .cart1{
-        background-color: #fff;
-        width: 378px;
-        border-radius: 30px;
-        height: 473px;
-      }
-        
-       .cart2{
-        background-color: #fff;
-        width: 378px;
-        border-radius: 30px;
-        height: 512px;
-      
-       }
-       .cart3{
-        background-color: #fff;
-        width: 378px;
-        border-radius: 30px;
-        transform: scale(1.0);
-        transition: ls;
-      height: 473px;
-        
-       }
-       .cart4{
-        background-color: #fff;
-        width: 378px;
-        margin-top: 36px;
-        border-radius: 30px;
-        height: 551px;
-      
-       }
-       .cart5{
-        background-color: #fff;
-        width: 378px;
-        margin-top: 40px;
-        border-radius: 30px;
-        height: 512px;
-       }
-       .cart6{
-        background-color: #fff;
-        width: 378px;
-        margin-top: 36px;
-        border-radius: 30px;
-        height: 551px;
-       }
-       .cart1:hover{
-        background-color: #fff;
-        width: 378px;
-        border-radius: 30px;
-        transform: scale(1.1);
-        transition: ls;
-       }
-       .cart2:hover{
-        background-color: #fff;
-        width: 378px;
-        border-radius: 30px;
-        transform: scale(1.1);
-        transition: ls;
-       }
-       .cart3:hover{
-        background-color: #fff;
-        width: 378px;
-        border-radius: 30px;
-        transform: scale(1.1);
-        transition: ls;
-       }
-       .cart4:hover{
-        background-color: #fff;
-        width: 378px;
-        border-radius: 30px;
-        transform: scale(1.1);
-        transition: ls;
-       }
-       .cart5:hover{
-        background-color: #fff;
-        width: 378px;
-        border-radius: 30px;
-        transform: scale(1.1);
-        transition: ls;
-       }
-       .cart6:hover{
-        background-color: #fff;
-        width: 378px;
-        border-radius: 30px;
-        transform: scale(1.1);
-        transition: ls;
-       }
-       .text2{
-        border-radius: 52.58px;
-        background: rgb(247, 247, 247);
-        color: rgb(32, 32, 39);
-font-family: Montserrat;
-font-size: 16px;
-font-weight: 500;
-line-height: 35px;
-width: 108px;
-height: 36px;
-margin-left: 16px;
-margin-top: 8px;
-text-align: center;
-       }  
-      .text3{
-        color: rgb(32, 32, 39);
-font-family: Montserrat;
-font-size: 32px;
-font-weight: 700;
-line-height: 39px;
-letter-spacing: 0px;
-text-align: left;
-margin-left: 16px;
-margin-top: 16px;
-margin-bottom: 20px;
-      } 
-      .star12{
-        position: absolute;
-        transform: scale(1.0);
-        transition: ls;
-        right: 118px;
-        top: 88px;
-      }
-      .star11{
-        position: absolute;
-        width: 32px;
-        right: 1650px;
-        top: 750px;
-      }
-      .star10{
-        top: 800px;
-        position: absolute;
-        width: 55px;
-        right: 1600px;
-    }
-      
-        .box-igra1{
-      color: rgb(255, 255, 255);
-      font-family: Montserrat;
-      font-size: 64px;
-      font-weight: 700;
-      line-height: 78.02px;
-      padding-top: 91px;
-        margin-bottom: 17px;
-        }
-      
-      .box-igra2{
-      color: rgb(255, 255, 255);
-    
-      }
-      .box1{
-          width: 350px;
-          height: 420px;
-      }
-      
-      .box1:hover{
-        width: 350px;
-        transform: scale(1.1);
-        transition: 1s;
-      }
-      
-      .star{
-        width: 584.72px;
-        height: 584.72px;
-        top: 841.92px;
-        border: 1px 0px 0px 0px; 
-        position: absolute;
-        margin-left: 975px;
-      }
-      
-      .box-ru{
-        padding-top: 49px;
-      }
-      
-      .star1{
-        width: 31.34px;
-        height: 31.34px;
-        top: 1570px;
-        rotate: -5.45 deg;
-        position: absolute;
-        margin-left: -102px;
-        margin-top: -224px;
-      }
-      
-      .star2{
-        width: 54.6px;
-        height: 54.6px;
-        top: 1622px;
-        left: 45.18px;
-        gap: 0px;
-        border: 1px 0px 0px 0px;
-        opacity: 0px;
-        rotate: -5.45 deg;
-        position: absolute;  
-        margin-top: -232px;
-        margin-left: 247px;
-      }
-      
-      
-       .text2{
-        border-radius: 52.58px;
-        background: rgb(247, 247, 247);
-        color: rgb(32, 32, 39);
-      font-family: Montserrat;
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 35px;
-      width: 108px;
-      height: 36px;
-      margin-left: 16px;
-      margin-top: 8px;
-      text-align: center;
-             }  
-      
-            .text3{
-              color: rgb(32, 32, 39);
-      font-family: Montserrat;
-      font-size: 32px;
-      font-weight: 700;
-      line-height: 39px;
-      letter-spacing: 0px;
-      text-align: left;
-      margin-left: 16px;
-      margin-top: 16px;
-      margin-bottom: 20px;
-            } 
-            .cart-box{
-              gap: 25px;
-              display: flex;
-          flex-wrap: wrap;
-          width: 1197px;
-          margin-top: 50px;
-            }
-      
-      
-            .mini-game{
-              font-family: Montserrat;
-              font-size: 64px;
-              font-weight: 700;
-              line-height: 78.02px;
-              text-align: left;
-              color: rgb(255, 255, 255); 
-              padding-top: 30px;   
-        
-            }
-      
-            .play{
-              width: 247px;
-              height: 66px;
-              padding: 16px 28px 16px 28px;
-              border-radius: 60px 60px 60px 60px;
-              background-color: #000;
-              color: rgb(255, 255, 255);
-              font-size: 24px;
-              font-weight: 600;
-              font-family: Montserrat;
-              text-align: center;
-            }
-      
-            .play:hover{
-                box-sizing: border-box;
-                background-color: #fafafa;
-                border-radius: 60px;
-                color: rgb(0, 0, 0);
-                font-family: Montserrat;
-                font-size: 24px;
-                font-weight: 600;
-                line-height: 141.69%;
-                letter-spacing: 0%;
-                text-align: center;
-            }
-      
-            .game{
-               border-radius: 30px 30px 30px 30px;
-            }
-      
-            .game1{
-              background-color: aliceblue;
-              width: 1188px;
-              height: 500px;
-              border-radius: 52px;
-              margin-top: 25px
-            }
-      
-            .game-img1{
-              margin-left: 590px;
-              width: 600px;
-              height: 500px;
-            }
-      
-           .game-img2{
-            margin-left: 0px;
-            width:600px;
-            height: 500px;
-           }
-      
-            .pole{
-              margin-top: -418px;
-              width: 399px;
-              height: 228px;
-              margin-left: 82px;
-            }
-      
-            .pole1{
-              margin-top: -418px;
-              width: 544px;
-              height: 295px;
-              margin-left: 664px;
-            }
-            .cart-game{
-                margin-top: 70px;
-            }
-      
-            .pole3{
-              margin-top: -418px;
-              width: 493px;
-              height: 344px;
-              margin-left: 64px;
-            }
-      
-            .pole4{
-              margin-top: -451px;
-              width: 515px;
-              height: 344px;
-              margin-left: 636px;
-            }
-      
-            .title-game{
-              margin-bottom: 20px;
-              font-family: Montserrat;
-              font-size: 48px;
-              font-weight: 700;
-              line-height: 58.51px;
-              text-align: left;        
-            }
-      
-            .title-game1{
-              margin-bottom: 20px;
-              font-family: Montserrat;
-              font-size: 48px;
-              font-weight: 700;
-              line-height: 58.51px;
-              text-align: left;        
-            }
-      
-            .describe{
-              font-family: Montserrat;
-              font-size: 24px;
-              font-weight: 400;
-              line-height: 32px;
-              text-align: left;        
-              margin-bottom: 20px;
-            }
-      
-            .describe1{
-              font-family: Montserrat;
-              font-size: 24px;
-              font-weight: 400;
-              line-height: 32px;
-              text-align: left;        
-              margin-bottom: 20px;
-            }
-      
-            .rules{
-              width: 1919px;
-              height: 150px;
-              top: 5770px;
-              background-color: #BCEC30;        
-            }
-      
-            .protection{
-              font-family: Montserrat;
-              font-size: 24px;
-              font-weight: 600;
-              line-height: 29.26px;
-              text-align: center;
-              padding-top: 60px;
-              color: black;
-            }
-      
-            .star-end1{
-              position: absolute;
-              margin-left: 1140px;
-              margin-top: -37px;
-        
-            }
-      
-            .star-end2{
-              position: absolute;
-              margin-left: 1200px;
-            }
-      
-            .star-end3{
-               position: absolute;
-               margin-left: 1120px;
-               margin-top: 70px;
-            }
-      
-            .star-end4{
-              position: absolute;
-              margin-left: 1200px;
-        
-            }
-      
-            .emoji{
-              position: absolute;
-              rotate: 7deg;
-              margin-left: -233px;
-              margin-top: 105px;
-              width: 90px;
-              height: 93px;
-            }
-      
-            .emoji1{
-              position: absolute;
-              rotate: 5deg;
-              margin-left: 818px;
-              margin-top: -325px;
-              width: 143px;
-              height: 141px;
-            }
-      
-            .catalog{
-              font-family: Montserrat;
-              font-size: 94px;
-              font-weight: 600;
-              line-height: 39.26px;
-              text-align: center;
-              padding-top: 60px;
-              color: black;
-            }
-            .pol1{
-               background-color: rgb(189, 237, 53);
-              height: 150px;
-            }
-            .polet{
-                color: rgb(0, 0, 0);
-                font-family: Montserrat;
-                font-size: 24px;
-                font-weight: 600;
-                line-height: 29px;
-                letter-spacing: 0px;
-                text-align: center;
-                padding-top: 61px;
-            }
+.button2:hover {
+  background: rgb(255, 253, 253);
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 60px;
+  margin-top: 18px;
+  height: 55px;
+  width: 247px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  margin-left: 5px;
+  color: rgb(2, 2, 2);
+  font-family: Montserrat;
+  font-size: 24px;
+  margin-right: 246px;
+  margin-top: 48px;
+}
+
+.igra2 {
+  position: absolute;
+  display: flex;
+  margin-top: 94px;
+  right: 1600px;
+}
+
+.igra1 {
+  position: absolute;
+  margin-top: 69px;
+}
+
+.igra3 {
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 100px;
+  width: 83px;
+}
+
+.igra4 {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 60px;
+  width: 37px;
+}
+
+.for-box {
+  background-color: rgb(32, 32, 39);
+  position: relative;
+}
+
+.box-igra1 {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  text-align: left;
+  padding-top: 94px;
+}
+
+.box-igra2 {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  margin-top: 24px;
+}
+
+.cart1 .cart3 {
+  height: 473px;
+}
+
+.cart2 .cart5 {
+  height: 512px;
+}
+
+.cart4 .cart6 {
+  height: 551px;
+}
+
+.cart1 {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+}
+
+.cart2 {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+}
+
+.cart3 {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  transform: scale(1);
+  transition: ls;
+}
+
+.cart4 {
+  background-color: #fff;
+  width: 378px;
+  margin-top: 36px;
+  border-radius: 30px;
+}
+
+.cart5 {
+  background-color: #fff;
+  width: 378px;
+  margin-top: 40px;
+  border-radius: 30px;
+}
+
+.cart6 {
+  background-color: #fff;
+  width: 378px;
+  margin-top: 36px;
+  border-radius: 30px;
+}
+
+.cart1:hover {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  transform: scale(1.1);
+  transition: ls;
+}
+
+.cart2:hover {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  transform: scale(1.1);
+  transition: ls;
+}
+
+.cart3:hover {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  transform: scale(1.1);
+  transition: ls;
+}
+
+.cart4:hover {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  transform: scale(1.1);
+  transition: ls;
+}
+
+.cart5:hover {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  transform: scale(1.1);
+  transition: ls;
+}
+
+.cart6:hover {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  transform: scale(1.1);
+  transition: ls;
+}
+
+.cart-img1 {
+  width: 378px;
+}
+
+.cart-img2 {
+  width: 378px;
+}
+
+.cart-img3 {
+  width: 378px;
+}
+
+.cart-img4 {
+  width: 378px;
+}
+
+.cart-img5 {
+  width: 378px;
+}
+
+.cart-img6 {
+  width: 378px;
+}
+
+.text2 {
+  border-radius: 52.58px;
+  background: rgb(247, 247, 247);
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 35px;
+  width: 108px;
+  height: 36px;
+  margin-left: 16px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.text3 {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 16px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.cart-box {
+  margin-top: 40px;
+  display: flex;
+  gap: 32px;
+  -moz-columns: 3;
+       columns: 3;
+}
+
+.star12 {
+  position: absolute;
+  transform: scale(1);
+  transition: ls;
+  right: 118px;
+  top: 88px;
+}
+
+.star11 {
+  position: absolute;
+  width: 32px;
+  right: 1650px;
+  top: 750px;
+}
+
+.star10 {
+  top: 800px;
+  position: absolute;
+  width: 55px;
+  right: 1600px;
+}
+
+.card1 {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+}
+
+.card2 {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+}
+
+.card3 {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  transform: scale(1);
+  transition: ls;
+}
+
+.card4 {
+  background-color: #fff;
+  width: 378px;
+  margin-top: 36px;
+  border-radius: 30px;
+}
+
+.card5 {
+  background-color: #fff;
+  width: 378px;
+  margin-top: 40px;
+  border-radius: 30px;
+}
+
+.card6 {
+  background-color: #fff;
+  width: 378px;
+  margin-top: 36px;
+  border-radius: 30px;
+}
+
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) and (max-width: 833px) {
+  .center {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media (max-width: 756px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .text1 {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    text-align: center;
+  }
+  .block {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */
