@@ -96,7 +96,6 @@ a{
                 width: 37px;
             }
             .for-box{
-                height: 1550px;
                 background-color: rgb(32, 32, 39);
                 position: relative;
              
@@ -285,5 +284,49 @@ margin-bottom: 20px;
         width: 55px;
         right: 1600px;
     }
+    .card1{
+        background-color: #fff;
+        width: 378px;
+        border-radius: 30px;
+      }
+        
+       .card2{
+        background-color: #fff;
+        width: 378px;
+        border-radius: 30px;
+      
+       }
+       .card3{
+        background-color: #fff;
+        width: 378px;
+        border-radius: 30px;
+        transform: scale(1.0);
+        transition: ls;
+      
+        
+       }
+       .card4{
+        background-color: #fff;
+        width: 378px;
+        margin-top: 36px;
+        border-radius: 30px;
+       
+      
+       }
+       .card5{
+        background-color: #fff;
+        width: 378px;
+        margin-top: 40px;
+        border-radius: 30px;
+
+     
+      
+       }
+       .card6{
+        background-color: #fff;
+        width: 378px;
+        margin-top: 36px;
+        border-radius: 30px;
+       }
     @import 'tablet';
     @import 'mobile';

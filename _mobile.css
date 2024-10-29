@@ -3,4 +3,23 @@
       padding-left: 16px;
       padding-right: 16px;
     }
+
+.text1{
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    text-align: center;  
 }
+.block{
+    color: rgb(32, 32, 39);
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 49px;
+text-align: center;
+}
+}
+
+
