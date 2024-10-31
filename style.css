@@ -111,6 +111,7 @@ a {
 .for-box {
   background-color: rgb(32, 32, 39);
   position: relative;
+  height: 1500px;
 }
 
 .box-igra1 {
@@ -133,28 +134,18 @@ a {
   margin-top: 24px;
 }
 
-.cart1 .cart3 {
-  height: 473px;
-}
-
-.cart2 .cart5 {
-  height: 512px;
-}
-
-.cart4 .cart6 {
-  height: 551px;
-}
-
 .cart1 {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
+  height: 473px;
 }
 
 .cart2 {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
+  height: 512px;
 }
 
 .cart3 {
@@ -163,6 +154,7 @@ a {
   border-radius: 30px;
   transform: scale(1);
   transition: ls;
+  height: 473px;
 }
 
 .cart4 {
@@ -170,6 +162,7 @@ a {
   width: 378px;
   margin-top: 36px;
   border-radius: 30px;
+  height: 551px;
 }
 
 .cart5 {
@@ -177,6 +170,7 @@ a {
   width: 378px;
   margin-top: 40px;
   border-radius: 30px;
+  height: 512px;
 }
 
 .cart6 {
@@ -184,6 +178,7 @@ a {
   width: 378px;
   margin-top: 36px;
   border-radius: 30px;
+  height: 551px;
 }
 
 .cart1:hover {
@@ -234,30 +229,6 @@ a {
   transition: ls;
 }
 
-.cart-img1 {
-  width: 378px;
-}
-
-.cart-img2 {
-  width: 378px;
-}
-
-.cart-img3 {
-  width: 378px;
-}
-
-.cart-img4 {
-  width: 378px;
-}
-
-.cart-img5 {
-  width: 378px;
-}
-
-.cart-img6 {
-  width: 378px;
-}
-
 .text2 {
   border-radius: 52.58px;
   background: rgb(247, 247, 247);
@@ -290,8 +261,6 @@ a {
   margin-top: 40px;
   display: flex;
   gap: 32px;
-  -moz-columns: 3;
-       columns: 3;
 }
 
 .star12 {
@@ -316,45 +285,261 @@ a {
   right: 1600px;
 }
 
-.card1 {
-  background-color: #fff;
-  width: 378px;
-  border-radius: 30px;
+.mini-game {
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78.02px;
+  text-align: left;
+  color: rgb(255, 255, 255);
 }
 
-.card2 {
-  background-color: #fff;
-  width: 378px;
-  border-radius: 30px;
+.play {
+  width: 247px;
+  height: 66px;
+  padding: 16px 28px 16px 28px;
+  border-radius: 60px 60px 60px 60px;
+  background-color: #202027;
+  border-color: #202027;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34.01px;
+  text-align: center;
+  border: 1px solid rgb(32, 32, 39);
 }
 
-.card3 {
+.play:hover {
   background-color: #fff;
-  width: 378px;
-  border-radius: 30px;
-  transform: scale(1);
-  transition: ls;
+  color: #202027;
+  font-family: Montserrat;
 }
 
-.card4 {
-  background-color: #fff;
-  width: 378px;
-  margin-top: 36px;
-  border-radius: 30px;
+.game {
+  border-radius: 30px 30px 30px 30px;
 }
 
-.card5 {
-  background-color: #fff;
-  width: 378px;
-  margin-top: 40px;
-  border-radius: 30px;
+.game1 {
+  background-color: aliceblue;
+  width: 1188px;
+  height: 500px;
+  border-radius: 52px;
+  margin-top: 25px;
 }
 
-.card6 {
-  background-color: #fff;
-  width: 378px;
-  margin-top: 36px;
-  border-radius: 30px;
+.game1 {
+  background-color: aliceblue;
+  width: 1188px;
+  height: 500px;
+  border-radius: 52px;
+  margin-top: 25px;
+}
+
+.game2 {
+  background-color: aliceblue;
+  width: 1188px;
+  height: 500px;
+  border-radius: 52px;
+  margin-top: 25px;
+}
+
+.game3 {
+  background-color: aliceblue;
+  width: 1188px;
+  height: 500px;
+  border-radius: 52px;
+  margin-top: 25px;
+}
+
+.game4 {
+  background-color: aliceblue;
+  width: 1188px;
+  height: 500px;
+  border-radius: 52px;
+  margin-top: 25px;
+}
+
+.game5 {
+  background-color: aliceblue;
+  width: 1188px;
+  height: 500px;
+  border-radius: 52px;
+  margin-top: 25px;
+}
+
+.game6 {
+  background-color: aliceblue;
+  width: 1188px;
+  height: 500px;
+  border-radius: 52px;
+  margin-top: 25px;
+}
+
+.game-img1 {
+  margin-left: 590px;
+  width: 600px;
+  height: 500px;
+}
+
+.game-img2 {
+  margin-left: 0px;
+  width: 600px;
+  height: 500px;
+}
+
+.pole {
+  margin-top: -418px;
+  width: 399px;
+  height: 228px;
+  margin-left: 82px;
+}
+
+.pole1 {
+  margin-top: -418px;
+  width: 544px;
+  height: 295px;
+  margin-left: 664px;
+}
+
+.pole3 {
+  margin-top: -418px;
+  width: 493px;
+  height: 344px;
+  margin-left: 64px;
+}
+
+.pole4 {
+  margin-top: -451px;
+  width: 515px;
+  height: 344px;
+  margin-left: 636px;
+}
+
+.for-box1 {
+  height: 3500px;
+  background-color: rgb(32, 32, 39);
+  position: relative;
+}
+
+.title-game {
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.51px;
+  text-align: left;
+}
+
+.title-game1 {
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.51px;
+  text-align: left;
+}
+
+.describe {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.describe1 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.rules {
+  width: 1919px;
+  height: 150px;
+  top: 5770px;
+  background-color: #BCEC30;
+}
+
+.protection {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.26px;
+  text-align: center;
+  padding-top: 60px;
+  color: black;
+}
+
+.star-end1 {
+  position: absolute;
+  margin-left: 1544px;
+  margin-top: -48px;
+}
+
+.star-end2 {
+  position: absolute;
+  margin-left: 1574px;
+  margin-top: -21px;
+}
+
+.star-end3 {
+  position: absolute;
+  margin-left: 1604px;
+}
+
+.star-end4 {
+  position: absolute;
+  margin-left: 1547px;
+  margin-top: 55px;
+}
+
+.emoji {
+  position: absolute;
+  rotate: 7deg;
+  margin-left: -233px;
+  margin-top: 105px;
+  width: 90px;
+  height: 93px;
+}
+
+.emoji1 {
+  position: absolute;
+  rotate: 5deg;
+  margin-left: 818px;
+  margin-top: -325px;
+  width: 143px;
+  height: 141px;
+}
+
+.catalog {
+  font-family: Montserrat;
+  font-size: 94px;
+  font-weight: 600;
+  line-height: 39.26px;
+  text-align: center;
+  padding-top: 60px;
+  color: black;
+}
+
+.pol1 {
+  background-color: rgb(225, 255, 143);
+  height: 150px;
+}
+
+.polet {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-top: 60px;
 }
 
 @media (max-width: 1024px) {
@@ -374,6 +559,25 @@ a {
     padding-left: 16px;
     padding-right: 16px;
   }
+  .button2 {
+    position: absolute;
+    margin-left: 170px;
+  }
+  .cart-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mini-game {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-top: 50px;
+  }
   .text1 {
     color: rgb(32, 32, 39);
     font-family: Montserrat;
@@ -382,12 +586,210 @@ a {
     line-height: 49px;
     text-align: center;
   }
+  .ioi {
+    background-image: url(img/Vector1.svg);
+    background-repeat: no-repeat;
+    background-position: top -80px right -90px;
+    background-color: rgb(225, 255, 143);
+    block-size: 750px;
+  }
   .block {
     color: rgb(32, 32, 39);
     font-family: Montserrat;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 49px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
     text-align: center;
+  }
+  .multi-bg-example {
+    background-image: none;
+    background-color: rgb(225, 255, 143);
+  }
+  .igra1 {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    margin-left: 90px;
+  }
+  .igra2 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 550px;
+  }
+  .igra3 {
+    position: absolute;
+    width: 51px;
+    height: px;
+    margin-left: 450px;
+    margin-top: 190px;
+  }
+  .igra4 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    margin-left: 390px;
+    margin-top: 150px;
+  }
+  .for-box {
+    display: none;
+  }
+  .for-box1 {
+    height: 3700px;
+  }
+  .game1 {
+    background-color: #fff;
+    width: 342px;
+    margin-top: 36px;
+    border-radius: 28px;
+    height: 510px;
+  }
+  .game2 {
+    background-color: #fff;
+    width: 342px;
+    margin-top: 36px;
+    border-radius: 28px;
+    height: 560px;
+  }
+  .game3 {
+    background-color: #fff;
+    width: 342px;
+    margin-top: 36px;
+    border-radius: 28px;
+    height: 520px;
+  }
+  .game4 {
+    background-color: #fff;
+    width: 342px;
+    margin-top: 36px;
+    border-radius: 28px;
+    height: 530px;
+  }
+  .game5 {
+    background-color: #fff;
+    width: 342px;
+    margin-top: 36px;
+    border-radius: 28px;
+    height: 570px;
+  }
+  .game6 {
+    background-color: #fff;
+    width: 342px;
+    margin-top: 36px;
+    border-radius: 28px;
+    height: 600px;
+  }
+  .game-img1 {
+    margin-left: -1px;
+    width: 343px;
+    height: 283px;
+  }
+  .game-img2 {
+    margin-left: -1px;
+    width: 343px;
+    height: 283px;
+  }
+  .title-game {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 10px;
+    width: 284px;
+  }
+  .title-game1 {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 284.93px;
+    margin-bottom: 10px;
+  }
+  .describe {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 275px;
+  }
+  .describe1 {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 275px;
+  }
+  .play {
+    width: 285px;
+    height: 55px;
+    padding: 16px 28px 16px 28px;
+    border-radius: 60px 60px 60px 60px;
+    background-color: #202027;
+    border-color: #202027;
+    font-family: Montserrat;
+    line-height: 34.01px;
+    text-align: center;
+    border: 1px solid rgb(32, 32, 39);
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 141.69%;
+    text-align: center;
+  }
+  .pole {
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  .pole1 {
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  .pole3 {
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .pole4 {
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .polet {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .pol1 {
+    background-color: rgb(225, 255, 143);
+    height: 100px;
+  }
+  .star-end1 {
+    display: none;
+  }
+  .star-end2 {
+    display: none;
+  }
+  .star-end3 {
+    display: none;
+  }
+  .star-end4 {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

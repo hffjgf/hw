@@ -1,9 +1,27 @@
 @media (max-width: 756px) {
     .center {
-      padding-left: 16px;
-      padding-right: 16px;
-    }
-
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+.button2{
+    position: absolute;
+    margin-left: 170px;
+}
+.cart-game{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  .mini-game{
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0px;
+text-align: left;
+padding-top: 50px;
+  }
 .text1{
     color: rgb(32, 32, 39);
     font-family: Montserrat;
@@ -12,12 +30,224 @@
     line-height: 49px;
     text-align: center;  
 }
+
+.ioi{
+    background-image: url(img/Vector1.svg);
+    background-repeat: no-repeat;
+    background-position: top -80px right -90px;
+    background-color: rgb(225, 255, 143);
+    block-size: 750px;
+}
+
 .block{
     color: rgb(32, 32, 39);
-font-family: Montserrat;
-font-size: 40px;
-font-weight: 700;
-line-height: 49px;
-text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
 }
+.multi-bg-example{
+    background-image: none;
+    background-color:  rgb(225, 255, 143);
+  
+}
+
+.igra1{
+    position: absolute;
+    width: 21px;
+height: 21px;
+margin-left: 90px;
+}
+.igra2{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 550px;
+}
+.igra3{
+    position: absolute;
+    width: 51px;
+    height: px;
+    margin-left: 450px;
+    margin-top: 190px;
+}
+.igra4{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    margin-left: 390px;
+    margin-top: 150px;
+}
+  
+.for-box{
+    display: none;
+}
+.for-box1{
+    height: 3700px;
+}
+.game1 {
+  background-color: #fff;
+  width: 342px;
+  margin-top: 36px;
+  border-radius: 28px;
+  height: 510px;
+  }
+
+  .game2{
+  background-color: #fff;
+  width: 342px;
+  margin-top: 36px;
+  border-radius: 28px;
+  height: 560px;
+  }
+  .game3 {
+    background-color: #fff;
+    width: 342px;
+    margin-top: 36px;
+    border-radius: 28px;
+    height: 520px;
+    }
+
+  .game4 {
+  background-color: #fff;
+  width: 342px;
+  margin-top: 36px;
+  border-radius: 28px;
+  height: 530px;
+  }
+  .game5 {
+    background-color: #fff;
+    width: 342px;
+    margin-top: 36px;
+    border-radius: 28px;
+    height: 570px;
+    }
+    .game6 {
+      background-color: #fff;
+      width: 342px;
+      margin-top: 36px;
+      border-radius: 28px;
+      height: 600px;
+      }
+  .game-img1 {
+    margin-left: -1px;
+    width: 343px;
+    height: 283px;
+  }
+  .game-img2 {
+    margin-left: -1px;
+    width: 343px;
+    height: 283px;
+  }
+  .title-game {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 10px;
+    width: 284px;
+  }
+  .title-game1 {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 284.93px;
+    margin-bottom: 10px;
+  }
+  
+  .describe {
+    color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+width: 275px;
+  }
+  .describe1 {
+    color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+width: 275px;
+  }
+  
+  .play {
+    width: 285px;
+    height: 55px;
+  padding: 16px 28px 16px 28px;
+  border-radius: 60px 60px 60px 60px;
+  background-color: #202027;
+  border-color: #202027;
+  font-family: Montserrat;
+  line-height: 34.01px;
+  text-align: center;
+  border: 1px solid rgb(32, 32, 39);
+
+color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 141.69%;
+text-align: center;
+  }
+  .pole {
+   
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  
+  .pole1 {
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  
+  .pole3 {
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+
+  .pole4 {
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .polet{
+    color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: center;
+padding-top: 40px;
+  }
+  .pol1{
+    background-color: rgb(225, 255, 143);
+    height: 100px;
+  }
+  .star-end1{
+display: none;
+  }
+  .star-end2{
+   display: none;
+     }
+  .star-end3{
+    display: none;
+     }
+  .star-end4{
+   display: none;
+   }
 }
