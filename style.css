@@ -59,7 +59,6 @@ a {
   color: rgb(255, 255, 255);
   font-family: Montserrat;
   font-size: 24px;
-  margin-right: 246px;
   margin-top: 48px;
 }
 
@@ -477,25 +476,28 @@ a {
 
 .star-end1 {
   position: absolute;
-  margin-left: 1544px;
-  margin-top: -48px;
+  margin-left: 1180px;
+  margin-top: -35px;
+  width: 58px;
 }
 
 .star-end2 {
   position: absolute;
-  margin-left: 1574px;
-  margin-top: -21px;
+  margin-left: 1124px;
+  margin-top: -61px;
+  width: 36px;
 }
 
 .star-end3 {
   position: absolute;
-  margin-left: 1604px;
+  margin-left: 1104px;
+  margin-top: 50px;
 }
 
 .star-end4 {
   position: absolute;
-  margin-left: 1547px;
-  margin-top: 55px;
+  margin-left: 1177px;
+  margin-top: 4px;
 }
 
 .emoji {
@@ -561,7 +563,9 @@ a {
   }
   .button2 {
     position: absolute;
-    margin-left: 170px;
+    padding: 16px 28px 16px 28px;
+    margin-left: 19px;
+    margin-left: 80px;
   }
   .cart-game {
     display: flex;
@@ -572,7 +576,6 @@ a {
     color: rgb(255, 255, 255);
     font-family: Montserrat;
     font-size: 40px;
-    font-weight: 700;
     line-height: 49px;
     letter-spacing: 0px;
     text-align: left;
@@ -582,16 +585,8 @@ a {
     color: rgb(32, 32, 39);
     font-family: Montserrat;
     font-size: 40px;
-    font-weight: 700;
     line-height: 49px;
     text-align: center;
-  }
-  .ioi {
-    background-image: url(img/Vector1.svg);
-    background-repeat: no-repeat;
-    background-position: top -80px right -90px;
-    background-color: rgb(225, 255, 143);
-    block-size: 750px;
   }
   .block {
     color: rgb(32, 32, 39);
@@ -605,31 +600,34 @@ a {
   .multi-bg-example {
     background-image: none;
     background-color: rgb(225, 255, 143);
+    background-image: url(img/Vector1.svg);
   }
   .igra1 {
     position: absolute;
     width: 21px;
     height: 21px;
-    margin-left: 90px;
+    right: 190px;
   }
   .igra2 {
     position: absolute;
     width: 35px;
     height: 35px;
     right: 550px;
+    margin-left: 0px;
+    margin-right: -300px;
   }
   .igra3 {
     position: absolute;
-    width: 51px;
-    height: px;
-    margin-left: 450px;
-    margin-top: 190px;
+    width: 39px;
+    height: 41px;
+    margin-left: 240px;
+    margin-top: 175px;
   }
   .igra4 {
     position: absolute;
     width: 18px;
     height: 18px;
-    margin-left: 390px;
+    margin-left: 210px;
     margin-top: 150px;
   }
   .for-box {
@@ -752,19 +750,27 @@ a {
   }
   .pole {
     margin-left: 40px;
-    margin-top: 40px;
+    margin-top: 0;
+    width: 284px;
+    height: 182px;
   }
   .pole1 {
     margin-left: 40px;
-    margin-top: 40px;
+    margin-top: 0px;
+    width: 284px;
+    height: 182px;
   }
   .pole3 {
     margin-left: 40px;
-    margin-top: 10px;
+    margin-top: 0px;
+    width: 284px;
+    height: 182px;
   }
   .pole4 {
     margin-left: 40px;
-    margin-top: 10px;
+    margin-top: 0px;
+    width: 284px;
+    height: 182px;
   }
   .polet {
     color: rgb(0, 0, 0);

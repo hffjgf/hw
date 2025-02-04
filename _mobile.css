@@ -13,9 +13,14 @@
         text-align: left;
       }
 .button2{
-    position: absolute;
-    margin-left: 200px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 78px;
+  height: 23px;
+  
 }
+
     
 .text1{
     color: rgb(32, 32, 39);
