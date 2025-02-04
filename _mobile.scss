@@ -41,11 +41,12 @@ padding-top: 50px;
     text-align: center;
 }
 .multi-bg-example{
-    background-image: none;
-    background-color:  rgb(225, 255, 143);
     background-image: url(img/Vector1.svg);
+    background-color: rgb(225, 255, 143);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: calc(90% + 120px) calc(2% - 110px);
 }
-
 .igra1{
     position: absolute;
     width: 21px;
