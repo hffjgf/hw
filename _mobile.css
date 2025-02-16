@@ -55,26 +55,26 @@
   background-position: calc(90% + 120px) calc(2% - 110px);
 
 }
-.igra1{
+.card1 {
     position: absolute;
     width: 21px;
 height: 21px;
 margin-left: 90px;
 }
-.igra2{
+.card2 {
     position: absolute;
     width: 35px;
     height: 35px;
     right: 550px;
 }
-.igra3{
+.card3 {
     position: absolute;
     width: 51px;
     height: px;
     margin-left: 450px;
     margin-top: 190px;
 }
-.igra4{
+.card4 {
     position: absolute;
     width: 18px;
     height: 18px;

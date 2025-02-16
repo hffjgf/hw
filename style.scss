@@ -46,7 +46,7 @@ a {
 .button2 {
   background: rgb(0, 0, 0);
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   box-sizing: border-box;
   border-radius: 60px;
   margin-top: 18px;
@@ -54,52 +54,43 @@ a {
   width: 247px;
   font-size: 16px;
   font-weight: 400;
-  line-height: 19px;
+  line-height: 50px;
   margin-left: 5px;
-  color: rgb(255, 255, 255);
   font-family: Montserrat;
   font-size: 24px;
+  margin-left: 32px;
   margin-top: 48px;
+  display: inline-block;
+  color:#fff;
 }
 
 .button2:hover {
-  background: rgb(255, 253, 253);
-  text-align: center;
-  box-sizing: border-box;
-  border-radius: 60px;
-  margin-top: 18px;
-  height: 55px;
-  width: 247px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  margin-left: 5px;
-  color: rgb(2, 2, 2);
-  font-family: Montserrat;
-  font-size: 24px;
-  margin-top: 48px;
+  background: white;
+    text-align: center;
+    border: 1px solid #202027;
+    color: black;
 }
 
-.igra2 {
+.card2{
   position: absolute;
   display: flex;
   margin-top: 94px;
   right: 1600px;
 }
 
-.igra1 {
+.card1 {
   position: absolute;
   margin-top: 69px;
 }
 
-.igra3 {
+.card3 {
   position: absolute;
   margin-left: 450px;
   margin-top: 100px;
   width: 83px;
 }
 
-.igra4 {
+.card4 {
   position: absolute;
   margin-left: 400px;
   margin-top: 60px;
@@ -112,7 +103,7 @@ a {
   height: 1500px;
 }
 
-.box-igra1 {
+.box-game1 {
   color: rgb(255, 255, 255);
   font-family: Montserrat;
   font-size: 64px;
@@ -122,7 +113,7 @@ a {
   padding-top: 94px;
 }
 
-.box-igra2 {
+.box-game2 {
   color: rgb(255, 255, 255);
   font-family: Montserrat;
   font-size: 24px;
@@ -312,6 +303,7 @@ a {
   line-height: 34.01px;
   text-align: center;
   border: 1px solid rgb(32, 32, 39);
+  margin-top: 25px;
 }
 
 .play:hover{
@@ -526,7 +518,8 @@ height: 500px;
   color: black;
 }
 .pol1{
-  background-color: rgb(225, 255, 143);
+  background-color: #BDED35;
+
   height: 150px;
 }
 .polet{
