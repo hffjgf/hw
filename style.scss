@@ -71,26 +71,26 @@ a {
     color: black;
 }
 
-.card2{
+.star-polaris{
   position: absolute;
   display: flex;
   margin-top: 94px;
   right: 1600px;
 }
 
-.card1 {
+.star-sirius{
   position: absolute;
   margin-top: 69px;
 }
 
-.card3 {
+.star-antares {
   position: absolute;
   margin-left: 450px;
   margin-top: 100px;
   width: 83px;
 }
 
-.card4 {
+.star-arcturus{
   position: absolute;
   margin-left: 400px;
   margin-top: 60px;
@@ -103,7 +103,7 @@ a {
   height: 1500px;
 }
 
-.box-game1 {
+.boxing-game{
   color: rgb(255, 255, 255);
   font-family: Montserrat;
   font-size: 64px;
@@ -113,7 +113,7 @@ a {
   padding-top: 94px;
 }
 
-.box-game2 {
+.description__game {
   color: rgb(255, 255, 255);
   font-family: Montserrat;
   font-size: 24px;
@@ -123,21 +123,21 @@ a {
   margin-top: 24px;
 }
 
-.cart1 {
+.cart-mini {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
   height: 473px;
 }
 
-.cart2 {
+.cart-avarage{
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
   height: 512px;
 }
 
-.cart3 {
+.cart-right{
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -146,7 +146,7 @@ a {
   height: 473px;
 }
 
-.cart4 {
+.cart-hugev {
   background-color: #fff;
   width: 378px;
   margin-top: 36px;
@@ -154,7 +154,7 @@ a {
   height: 551px;
 }
 
-.cart5 {
+.cart-big{
   background-color: #fff;
   width: 378px;
   margin-top: 40px;
@@ -162,7 +162,7 @@ a {
   height: 512px;
 }
 
-.cart6 {
+.cart-huge{
   background-color: #fff;
   width: 378px;
   margin-top: 36px;
@@ -170,7 +170,7 @@ a {
   height: 551px;
 }
 
-.cart1:hover {
+.cart-mini:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -178,7 +178,7 @@ a {
   transition: ls;
 }
 
-.cart2:hover {
+.cart-avarage:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -186,7 +186,9 @@ a {
   transition: ls;
 }
 
-.cart3:hover {
+
+
+.cart-huge:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -194,7 +196,7 @@ a {
   transition: ls;
 }
 
-.cart4:hover {
+.cart-big:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -202,22 +204,13 @@ a {
   transition: ls;
 }
 
-.cart5:hover {
+.cart-hugev:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
   transform: scale(1.1);
   transition: ls;
 }
-
-.cart6:hover {
-  background-color: #fff;
-  width: 378px;
-  border-radius: 30px;
-  transform: scale(1.1);
-  transition: ls;
-}
-
 .text2 {
   border-radius: 52.58px;
   background: rgb(247, 247, 247);
@@ -233,7 +226,7 @@ a {
   text-align: center;
 }
 
-.text3 {
+.cart-name{
   color: rgb(32, 32, 39);
   font-family: Montserrat;
   font-size: 32px;
@@ -246,14 +239,14 @@ a {
   margin-bottom: 20px;
 }
 
-.cart-box {
+.black-block {
   margin-top: 40px;
   display: flex;
   gap: 32px;
      
 }
 
-.star12 {
+.star-rigel{
   position: absolute;
   transform: scale(1);
   transition: ls;
@@ -261,20 +254,19 @@ a {
   top: 88px;
 }
 
-.star11 {
+.star-vega {
   position: absolute;
   width: 32px;
   right: 1650px;
   top: 750px;
 }
 
-.star10 {
+.star-altair{
   top: 800px;
   position: absolute;
   width: 55px;
   right: 1600px;
 }
-
 
 
 
@@ -289,7 +281,7 @@ a {
 
 }
 
-.play{
+.button-play{
   width: 247px;
   height: 66px;
   padding: 16px 28px 16px 28px;
@@ -306,7 +298,7 @@ a {
   margin-top: 25px;
 }
 
-.play:hover{
+.button-play:hover{
    background-color: #fff;
    color: #202027;
    font-family: Montserrat;
@@ -405,7 +397,7 @@ height: 500px;
   height: 344px;
   margin-left: 636px;
 }
- .for-box1{
+ .for-box__big{
   height: 3400px;
   background-color: rgb(32, 32, 39);
   position: relative;
