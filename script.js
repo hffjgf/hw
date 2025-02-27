@@ -1,61 +1,43 @@
 //Задание1
-let password = prompt('Введите пароль');
-let password2 = "1"
-
-if( password == password2){
-    message = 'Пароль верный';
-} else {
-    message = 'Пароль не верный';
+for(let i = 0; i < 2; i++) {
+  console.log('Привет');
 }
-alert(message);
-//Задание2
-let c = 4
-if(c > 0 && c <=10) {
-    message = 'Верно';
-} else {
-    message = 'Неверно';
+Задание2
+for(let i = 1; i < 6; i += 1) {
+    console.log(i);
 }
-alert(message);
 //Задание3
-let d = 140;
-let e = 10;
-
-if(d>100 || e<100 ) {
-    message = 'Верно';
-} else {
-    message = 'Неверно';
+for(let i = 7; i < 23; i += 1) {
+    console.log(i);
 }
-alert(message);
 //Задание4
-let a = '2';
-let b = '3';
-alert(Number(a) + Number(b));
+const obj = {
+    name: 'Коля 200$',
+    name2: 'Вася 300$',
+    name3: 'Петя 400$',
+};
+for (let key in obj) {
+    console.log(key, obj[key]);
+}
 //Задание5
-let day = String(prompt('Введите номер месяц'));
+function myCode() {
+let n = 1000;
+let num = 0;
 
-switch (day) {
-    case 12:
-        case 1:
-        case 2:
-            alert ('Зима');
-            break;
-        case 3:
-        case 4:
-        case 5:
-            alert ('Весна');
-            break;
-        case 6:
-        case 7:
-        case 8:
-            alert ('Лето');
-            break;
-        case 9:
-        case 10:
-        case 11:
-            alert ('Осень');
-            break;
-        default:
-            alert ('Неизвестный месяц'); 
-            
-            
-    }
+while (n > 50){
+    n/=2;
+    num++;
+}
+console.log(num);
+console.log(n);
+}
+myCode();
+//Задание 6
+const firstFriday = 5;
+for (let day = 1; day <= 31; day++)
+{
+    if((day - firstFriday) % 7 ===0){
+
+    console.log("Сегодня пятница," + day + "-e число. Необходимо подготовить отчет.");
+}
+}
