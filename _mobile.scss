@@ -23,6 +23,7 @@
   margin-top: 48px;
   display: inline-block;
   color: #fff;
+  right: 90px;
 
 }      
 .button2:hover {
@@ -64,32 +65,32 @@ padding-top: 50px;
     background-position: calc(90% + 120px) calc(2% - 110px);
 }
 .star-sirius{
-    position: absolute;
-    width: 21px;
-height: 21px;
-right: 260px;
+  position: absolute;
+        width: 21px;
+        height: 21px;
+        right: 260px;
 }
 .star-polaris{
   position: absolute;
   width: 35px;
   height: 35px;
   right: 620px;
-  margin-left: 00px;
   margin-right: -300px;
+ 
 }
 .star-antares{
   position: absolute;
-  width: 39px;
-  height: 41px;
-  margin-left: 310px;
-  margin-top: 175px;
+  width: 18px;
+  height: 18px;
+  margin-top: 150px;
+  right: 150px;
 }
 .star-arcturus{
   position: absolute;
-  width: 18px;
-  height: 18px;
-  margin-left: 280px;
-  margin-top: 150px;
+  width: 39px;
+  height: 41px;
+  margin-top: 175px;
+  right: 69px;
 }
 .for-box{
     display: none;

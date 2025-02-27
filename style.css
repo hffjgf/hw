@@ -539,6 +539,91 @@ a {
     padding-right: 24px;
   }
 }
+@media (max-width: 1024px) {
+  .multi-bg-example {
+    background-image: url(img/Vector1.svg);
+    background-color: rgb(225, 255, 143);
+    background-repeat: no-repeat;
+    background-position: calc(90% + 150px) calc(2% - 110px);
+  }
+  .text1 {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-top: 196px;
+    text-align: center;
+  }
+  .block {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 24px;
+    text-align: center;
+  }
+  .button2 {
+    position: absolute;
+    font-family: Montserrat;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 60px;
+    margin-top: 18px;
+    height: 55px;
+    width: 247px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-left: 5px;
+    font-family: Montserrat;
+    font-size: 24px;
+    margin-left: 32px;
+    margin-top: 48px;
+    display: inline-block;
+    color: #fff;
+    right: 260px;
+  }
+  .button2:hover {
+    background: white;
+    text-align: center;
+    border: 1px solid #202027;
+    color: black;
+  }
+  .star-sirius {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    right: 560px;
+  }
+  .star-polaris {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 620px;
+    margin-left: 0px;
+  }
+  .star-antares {
+    position: absolute;
+    width: 39px;
+    height: 41px;
+    right: 100px;
+    margin-top: 175px;
+  }
+  .star-arcturus {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: 190px;
+    margin-top: 150px;
+  }
+  .star-rigel {
+    display: none;
+  }
+}
 @media (max-width: 756px) {
   .center {
     padding-left: 16px;
@@ -564,6 +649,7 @@ a {
     margin-top: 48px;
     display: inline-block;
     color: #fff;
+    right: 90px;
   }
   .button2:hover {
     background: white;
@@ -613,22 +699,21 @@ a {
     width: 35px;
     height: 35px;
     right: 620px;
-    margin-left: 0px;
     margin-right: -300px;
   }
   .star-antares {
     position: absolute;
-    width: 39px;
-    height: 41px;
-    margin-left: 310px;
-    margin-top: 175px;
+    width: 18px;
+    height: 18px;
+    margin-top: 150px;
+    right: 150px;
   }
   .star-arcturus {
     position: absolute;
-    width: 18px;
-    height: 18px;
-    margin-left: 280px;
-    margin-top: 150px;
+    width: 39px;
+    height: 41px;
+    margin-top: 175px;
+    right: 69px;
   }
   .for-box {
     display: none;
