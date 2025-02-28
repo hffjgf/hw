@@ -13,7 +13,7 @@
         text-align: left;
       }
 .button2{
-  position: absolute;
+  position: static;
   margin-left: auto;
   margin-right: auto;
   width: 78px;

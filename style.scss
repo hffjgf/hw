@@ -44,6 +44,7 @@ a {
 }
 
 .button2 {
+  font-family: monospace;
   background: rgb(0, 0, 0);
   text-align: center;
   border: 1px solid #fff;
@@ -56,9 +57,7 @@ a {
   font-weight: 400;
   line-height: 50px;
   margin-left: 5px;
-  font-family: Montserrat;
   font-size: 24px;
-  margin-left: 32px;
   margin-top: 48px;
   display: inline-block;
   color:#fff;
@@ -211,11 +210,14 @@ a {
   transform: scale(1.1);
   transition: ls;
 }
+.cart-number{
+  margin-left: 32px;
+  margin-top: 16px;
+}
 .text2 {
   border-radius: 52.58px;
   background: rgb(247, 247, 247);
   color: rgb(32, 32, 39);
-  font-family: Montserrat;
   font-size: 16px;
   font-weight: 500;
   line-height: 35px;
@@ -234,7 +236,7 @@ a {
   line-height: 39px;
   letter-spacing: 0px;
   text-align: left;
-  margin-left: 16px;
+  margin-left: 32px;
   margin-top: 16px;
   margin-bottom: 20px;
 }
@@ -309,49 +311,43 @@ a {
 }
 
 .game1{
-  background-color: aliceblue;
-  width: 1188px;
-  height: 500px;
-  border-radius: 52px;
-  margin-top: 25px
-}
-.game1{
-  background-color: aliceblue;
+
+  background: rgb(255, 255, 255);
   width: 1188px;
   height: 500px;
   border-radius: 52px;
   margin-top: 25px
 }
 .game2{
-  background-color: aliceblue;
+  background: rgb(255, 255, 255);
   width: 1188px;
   height: 500px;
   border-radius: 52px;
   margin-top: 25px
 }
 .game3{
-  background-color: aliceblue;
+  background: rgb(255, 255, 255);
   width: 1188px;
   height: 500px;
   border-radius: 52px;
   margin-top: 25px
 }
 .game4{
-  background-color: aliceblue;
+  background: rgb(255, 255, 255);
   width: 1188px;
   height: 500px;
   border-radius: 52px;
   margin-top: 25px
 }
 .game5{
-  background-color: aliceblue;
+  background: rgb(255, 255, 255);
   width: 1188px;
   height: 500px;
   border-radius: 52px;
   margin-top: 25px
 }
 .game6{
-  background-color: aliceblue;
+  background: rgb(255, 255, 255);
   width: 1188px;
   height: 500px;
   border-radius: 52px;
