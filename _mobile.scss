@@ -3,8 +3,7 @@
         padding-left: 16px;
         padding-right: 16px;
       }
-.button2{
-  font-family: monospace;
+.multi-button{
   position: static;
   background: rgb(0, 0, 0);
   text-align: center;
@@ -26,7 +25,7 @@
   right: 90px;
 
 }      
-.button2:hover {
+.multi-button:hover {
   background: white;
   text-align: center;
   border: 1px solid #202027;
@@ -42,14 +41,14 @@ letter-spacing: 0px;
 text-align: left;
 padding-top: 50px;
   }
-.text1{
+.multi-text{
     color: rgb(32, 32, 39);
     font-family: Montserrat;
     font-size: 40px;
     line-height: 49px;
     text-align: center;  
 }
-.block{
+.multi-mini__text{
     color: rgb(32, 32, 39);
     font-family: Montserrat;
     font-size: 16px;
@@ -92,9 +91,10 @@ padding-top: 50px;
   margin-top: 175px;
   right: 69px;
 }
-.for-box{
+.star-box{
     display: none;
 }
+
 .for-box__big{
     height: 3700px;
 }
@@ -221,6 +221,22 @@ text-align: center;
     margin-top: 0;
     width: 284px;
     height: 182px;
+  }
+  .button-play {
+    width: 247px;
+    height: 66px;
+    padding: 16px 28px 16px 28px;
+    border-radius: 60px 60px 60px 60px;
+    background-color: #202027;
+    border-color: #202027;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34.01px;
+    text-align: center;
+    border: 1px solid rgb(32, 32, 39);
+    margin-top: 9px;
   }
   
   .pole1 {
