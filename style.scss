@@ -25,7 +25,7 @@ a {
   block-size: 750px;
 }
 
-.text1 {
+.multi-text {
   color: rgb(32, 32, 39);
   font-family: Montserrat;
   font-size: 64px;
@@ -34,7 +34,7 @@ a {
   padding-top: 196px;
 }
 
-.block {
+.multi-mini__text {
   color: rgb(32, 32, 39);
   font-family: Montserrat;
   font-size: 24px;
@@ -43,8 +43,7 @@ a {
   margin-top: 24px;
 }
 
-.button2 {
-  font-family: monospace;
+.multi-button{
   background: rgb(0, 0, 0);
   text-align: center;
   border: 1px solid #fff;
@@ -96,7 +95,7 @@ a {
   width: 37px;
 }
 
-.for-box {
+.star-box {
   background-color: rgb(32, 32, 39);
   position: relative;
   height: 1500px;
@@ -127,6 +126,8 @@ a {
   width: 378px;
   border-radius: 30px;
   height: 473px;
+  transform: scale(1);
+  transition: ls;
 }
 
 .cart-avarage{
@@ -134,6 +135,8 @@ a {
   width: 378px;
   border-radius: 30px;
   height: 512px;
+  transform: scale(1);
+  transition: ls;
 }
 
 .cart-right{
@@ -151,6 +154,8 @@ a {
   margin-top: 36px;
   border-radius: 30px;
   height: 551px;
+  transform: scale(1);
+  transition: ls;
 }
 
 .cart-big{
@@ -159,6 +164,8 @@ a {
   margin-top: 40px;
   border-radius: 30px;
   height: 512px;
+  transform: scale(1);
+  transition: ls;
 }
 
 .cart-huge{
@@ -167,6 +174,8 @@ a {
   margin-top: 36px;
   border-radius: 30px;
   height: 551px;
+  transform: scale(1);
+  transition: ls;
 }
 
 .cart-mini:hover {
@@ -213,6 +222,13 @@ a {
 .cart-number{
   margin-left: 32px;
   margin-top: 16px;
+  background: rgb(247, 247, 247);
+  width: 111px;
+height: 36px;
+border-radius: 52.58px;
+font-family: Montserrat;
+text-align: center;
+
 }
 .text2 {
   border-radius: 52.58px;

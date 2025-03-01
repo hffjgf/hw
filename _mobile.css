@@ -12,7 +12,7 @@
         letter-spacing: 0px;
         text-align: left;
       }
-.button2{
+.multi-button{
   position: static;
   margin-left: auto;
   margin-right: auto;
@@ -22,7 +22,7 @@
 }
 
     
-.text1{
+.multi-text{
   color: rgb(32, 32, 39);
   font-family: Montserrat;
   font-size: 40px;
@@ -30,15 +30,7 @@
   text-align: center;
 }
 
-.ioi{
-    background-image: url(img/Vector1.svg);
-    background-repeat: no-repeat;
-    background-position: top -80px right -90px;
-    background-color: rgb(225, 255, 143);
-    block-size: 750px;
-}
-
-.block{
+.multi-mini__text{
     color: rgb(32, 32, 39);
     font-family: Montserrat;
     font-size: 16px;
@@ -81,7 +73,7 @@ margin-left: 90px;
     margin-top: 150px;
 }
   
-.for-box{
+.star-box{
     display: none;
 }
 .for-box1{
@@ -94,7 +86,22 @@ margin-left: 90px;
     border-radius: 30px;
     height: 565px;
   }
-  
+  .button-play {
+    width: 247px;
+    height: 66px;
+    padding: 16px 28px 16px 28px;
+    border-radius: 60px 60px 60px 60px;
+    background-color: #202027;
+    border-color: #202027;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34.01px;
+    text-align: center;
+    border: 1px solid rgb(32, 32, 39);
+    margin-top: 9px;
+  }  
   .game-img1 {
     margin-left: -1px;
     width: 343px;

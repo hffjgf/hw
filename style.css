@@ -25,7 +25,7 @@ a {
   block-size: 750px;
 }
 
-.text1 {
+.multi-text {
   color: rgb(32, 32, 39);
   font-family: Montserrat;
   font-size: 64px;
@@ -34,7 +34,7 @@ a {
   padding-top: 196px;
 }
 
-.block {
+.multi-mini__text {
   color: rgb(32, 32, 39);
   font-family: Montserrat;
   font-size: 24px;
@@ -43,8 +43,7 @@ a {
   margin-top: 24px;
 }
 
-.button2 {
-  font-family: monospace;
+.multi-button {
   background: rgb(0, 0, 0);
   text-align: center;
   border: 1px solid #fff;
@@ -96,7 +95,7 @@ a {
   width: 37px;
 }
 
-.for-box {
+.star-box {
   background-color: rgb(32, 32, 39);
   position: relative;
   height: 1500px;
@@ -127,6 +126,8 @@ a {
   width: 378px;
   border-radius: 30px;
   height: 473px;
+  transform: scale(1);
+  transition: ls;
 }
 
 .cart-avarage {
@@ -134,6 +135,8 @@ a {
   width: 378px;
   border-radius: 30px;
   height: 512px;
+  transform: scale(1);
+  transition: ls;
 }
 
 .cart-right {
@@ -151,6 +154,8 @@ a {
   margin-top: 36px;
   border-radius: 30px;
   height: 551px;
+  transform: scale(1);
+  transition: ls;
 }
 
 .cart-big {
@@ -159,6 +164,8 @@ a {
   margin-top: 40px;
   border-radius: 30px;
   height: 512px;
+  transform: scale(1);
+  transition: ls;
 }
 
 .cart-huge {
@@ -167,6 +174,8 @@ a {
   margin-top: 36px;
   border-radius: 30px;
   height: 551px;
+  transform: scale(1);
+  transition: ls;
 }
 
 .cart-mini:hover {
@@ -212,6 +221,12 @@ a {
 .cart-number {
   margin-left: 32px;
   margin-top: 16px;
+  background: rgb(247, 247, 247);
+  width: 111px;
+  height: 36px;
+  border-radius: 52.58px;
+  font-family: Montserrat;
+  text-align: center;
 }
 
 .text2 {
@@ -624,8 +639,7 @@ a {
     padding-left: 16px;
     padding-right: 16px;
   }
-  .button2 {
-    font-family: monospace;
+  .multi-button {
     position: static;
     background: rgb(0, 0, 0);
     text-align: center;
@@ -646,7 +660,7 @@ a {
     color: #fff;
     right: 90px;
   }
-  .button2:hover {
+  .multi-button:hover {
     background: white;
     text-align: center;
     border: 1px solid #202027;
@@ -661,14 +675,14 @@ a {
     text-align: left;
     padding-top: 50px;
   }
-  .text1 {
+  .multi-text {
     color: rgb(32, 32, 39);
     font-family: Montserrat;
     font-size: 40px;
     line-height: 49px;
     text-align: center;
   }
-  .block {
+  .multi-mini__text {
     color: rgb(32, 32, 39);
     font-family: Montserrat;
     font-size: 16px;
@@ -710,7 +724,7 @@ a {
     margin-top: 175px;
     right: 69px;
   }
-  .for-box {
+  .star-box {
     display: none;
   }
   .for-box__big {
@@ -833,6 +847,22 @@ a {
     margin-top: 0;
     width: 284px;
     height: 182px;
+  }
+  .button-play {
+    width: 247px;
+    height: 66px;
+    padding: 16px 28px 16px 28px;
+    border-radius: 60px 60px 60px 60px;
+    background-color: #202027;
+    border-color: #202027;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34.01px;
+    text-align: center;
+    border: 1px solid rgb(32, 32, 39);
+    margin-top: 9px;
   }
   .pole1 {
     margin-left: 40px;
