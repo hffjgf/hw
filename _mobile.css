@@ -22,7 +22,7 @@
 }
 
     
-.multi-text{
+.header__text_big{
   color: rgb(32, 32, 39);
   font-family: Montserrat;
   font-size: 40px;
@@ -30,7 +30,7 @@
   text-align: center;
 }
 
-.multi-mini__text{
+.header__text_little{
     color: rgb(32, 32, 39);
     font-family: Montserrat;
     font-size: 16px;
@@ -39,79 +39,14 @@
     letter-spacing: 0px;
     text-align: center;
 }
-.multi-bg-example{
+.header{
   background-image: url(img/Vector1.svg);
   background-color: rgb(225, 255, 143);
   background-repeat: no-repeat;
   background-position: calc(90% + 120px) calc(2% - 110px);
 
 }
-.card1 {
-    position: absolute;
-    width: 21px;
-height: 21px;
-margin-left: 90px;
-}
-.card2 {
-    position: absolute;
-    width: 35px;
-    height: 35px;
-    right: 550px;
-}
-.card3 {
-    position: absolute;
-    width: 51px;
-    height: px;
-    margin-left: 450px;
-    margin-top: 190px;
-}
-.card4 {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    margin-left: 390px;
-    margin-top: 150px;
-}
-  
-.star-box{
-    display: none;
-}
-.for-box1{
-    height: 3700px;
-}
-.game1 {
-    background-color: #fff;
-    width: 342px;
-    margin-top: 36px;
-    border-radius: 30px;
-    height: 565px;
-  }
-  .button-play {
-    width: 247px;
-    height: 66px;
-    padding: 16px 28px 16px 28px;
-    border-radius: 60px 60px 60px 60px;
-    background-color: #202027;
-    border-color: #202027;
-    color: #fff;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 34.01px;
-    text-align: center;
-    border: 1px solid rgb(32, 32, 39);
-    margin-top: 9px;
-  }  
-  .game-img1 {
-    margin-left: -1px;
-    width: 343px;
-    height: 283px;
-  }
-  .game-img2 {
-    margin-left: -1px;
-    width: 343px;
-    height: 283px;
-  }
+
   .title-game {
     color: rgb(32, 32, 39);
     font-family: Montserrat;

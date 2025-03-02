@@ -3,7 +3,7 @@
         padding-left: 16px;
         padding-right: 16px;
       }
-.multi-button{
+.header-button{
   position: static;
   background: rgb(0, 0, 0);
   text-align: center;
@@ -24,31 +24,44 @@
   color: #fff;
   right: 90px;
 
-}      
-.multi-button:hover {
-  background: white;
+}     
+.header-button:hover{
+  position: static;
+  background: rgb(248, 245, 245);
   text-align: center;
-  border: 1px solid #202027;
-  color: black;
+  border: 1px solid #080808;
+  box-sizing: border-box;
+  border-radius: 60px;
+  margin-top: 18px;
+  height: 55px;
+  width: 247px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
+  margin-left: 5px;
+  font-size: 24px;
+  margin-left: 52px;
+  margin-top: 48px;
+  display: inline-block;
+  color: #0f0f0f;
+  right: 90px;
+
+}      
+.header{
+  background-image: url(img/Vector1.svg);
+  background-color: rgb(225, 255, 143);
+  background-repeat: no-repeat;
+  background-position: calc(90% + 120px) calc(2% - 110px);
+}
+.header__text_big{
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
 }
 
-  .mini-game{
-    color: rgb(255, 255, 255);
-font-family: Montserrat;
-font-size: 40px;
-line-height: 49px;
-letter-spacing: 0px;
-text-align: left;
-padding-top: 50px;
-  }
-.multi-text{
-    color: rgb(32, 32, 39);
-    font-family: Montserrat;
-    font-size: 40px;
-    line-height: 49px;
-    text-align: center;  
-}
-.multi-mini__text{
+.header__text_little{
     color: rgb(32, 32, 39);
     font-family: Montserrat;
     font-size: 16px;
@@ -57,48 +70,65 @@ padding-top: 50px;
     letter-spacing: 0px;
     text-align: center;
 }
-.multi-bg-example{
-    background-image: url(img/Vector1.svg);
-    background-color: rgb(225, 255, 143);
-    background-repeat: no-repeat;
-    background-position: calc(90% + 120px) calc(2% - 110px);
+.multi-button:hover {
+  background: white;
+  text-align: center;
+  border: 1px solid #202027;
+  color: black;
 }
-.star-sirius{
+.star__upper_left{
   position: absolute;
-        width: 21px;
-        height: 21px;
-        right: 260px;
+  width: 21px;
+  height: 21px;
+  right: 260px;
 }
-.star-polaris{
+.star__lower_left {
   position: absolute;
   width: 35px;
   height: 35px;
   right: 620px;
+  margin-left: 0px;
   margin-right: -300px;
- 
 }
-.star-antares{
+.star__upper_right{
   position: absolute;
   width: 18px;
   height: 18px;
+  margin-left: 280px;
   margin-top: 150px;
-  right: 150px;
 }
-.star-arcturus{
+.star__lower_right {
   position: absolute;
   width: 39px;
   height: 41px;
+  margin-left: 310px;
   margin-top: 175px;
-  right: 69px;
 }
-.star-box{
+
+  .product__title{
+    color: rgb(255, 255, 255);
+font-family: Montserrat;
+font-size: 40px;
+line-height: 49px;
+letter-spacing: 0px;
+text-align: left;
+padding-top: 50px;
+  }
+
+.module__game {
     display: none;
 }
 
-.for-box__big{
+.product{
     height: 3700px;
 }
-.game1 {
+.product__game {
+  display: flex
+;
+  flex-direction: column;
+  align-items: center;
+}
+.product__game_number {
   background-color: #fff;
   width: 342px;
   margin-top: 36px;
@@ -106,14 +136,19 @@ padding-top: 50px;
   height: 510px;
   }
 
-  .game2{
+  .product__game_arithmetic{
   background-color: #fff;
   width: 342px;
   margin-top: 36px;
   border-radius: 28px;
   height: 560px;
   }
-  .game3 {
+  .game-img1 {
+    margin-left: -1px;
+    width: 343px;
+    height: 283px;
+}
+  .product__game_text{
     background-color: #fff;
     width: 342px;
     margin-top: 36px;
@@ -121,38 +156,80 @@ padding-top: 50px;
     height: 520px;
     }
 
-  .game4 {
+  .product__game_vectoring{
   background-color: #fff;
   width: 342px;
   margin-top: 36px;
   border-radius: 28px;
   height: 530px;
   }
-  .game5 {
+  .product__game_stone {
     background-color: #fff;
     width: 342px;
     margin-top: 36px;
     border-radius: 28px;
     height: 570px;
     }
-    .game6 {
+    .product__game_generator {
       background-color: #fff;
       width: 342px;
       margin-top: 36px;
       border-radius: 28px;
       height: 600px;
       }
-  .game-img1 {
-    margin-left: -1px;
-    width: 343px;
-    height: 283px;
+      .product__field_picture{
+        margin-left: 40px;
+        margin-top: 0;
+        width: 284px;
+        height: 182px;
+    }
+    
+
+    .product__game_arithmetic {
+      background-color: #fff;
+      width: 342px;
+      margin-top: 36px;
+      border-radius: 28px;
+      height: 560px;
   }
-  .game-img2 {
-    margin-left: -1px;
-    width: 343px;
-    height: 283px;
+  .product__game_picture{
+      margin-left: -1px;
+      width: 343px;
+      height: 283px;
+    }
+    .game-img2 {
+      margin-left: -1px;
+      width: 343px;
+      height: 283px;
   }
-  .title-game {
+  .product__field_arithmetic{
+    margin-left: 40px;
+        margin-top: 0px;
+        width: 284px;
+        height: 182px;
+    }
+    .product__field_text{
+      margin-left: 40px;
+        margin-top: 0px;
+        width: 284px;
+        height: 182px;
+    }
+    .product__field_vectorihg{
+      margin-left: 40px;
+      margin-top: 0px;
+      width: 284px;
+      height: 182px;}
+    .product__field_stone{
+      margin-left: 40px;
+      margin-top: 0px;
+      width: 284px;
+      height: 182px;}
+    .product__field_generator{
+      margin-left: 40px;
+      margin-top: 0px;
+      width: 284px;
+      height: 182px;}
+    .product__text_title{
     color: rgb(32, 32, 39);
     font-family: Montserrat;
     font-size: 32px;
@@ -162,21 +239,9 @@ padding-top: 50px;
     text-align: left;
     margin-bottom: 10px;
     width: 284px;
-  }
-  .title-game1 {
-    color: rgb(32, 32, 39);
-    font-family: Montserrat;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 39px;
-    letter-spacing: 0px;
-    text-align: left;
-    width: 284.93px;
-    margin-bottom: 10px;
-  }
-  
-  .describe {
-    color: rgb(0, 0, 0);
+}
+.product__description {
+color: rgb(0, 0, 0);
 font-family: Montserrat;
 font-size: 16px;
 font-weight: 400;
@@ -184,106 +249,54 @@ line-height: 20px;
 letter-spacing: 0px;
 text-align: left;
 width: 275px;
-  }
-  .describe1 {
-    color: rgb(0, 0, 0);
-font-family: Montserrat;
-font-size: 16px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0px;
-text-align: left;
-width: 275px;
-  }
-  
-  .play {
-    width: 285px;
-    height: 55px;
-  padding: 16px 28px 16px 28px;
-  border-radius: 60px 60px 60px 60px;
-  background-color: #202027;
-  border-color: #202027;
-  font-family: Montserrat;
-  line-height: 34.01px;
-  text-align: center;
-  border: 1px solid rgb(32, 32, 39);
+}
+.product__button_big{
+  display: none;
+}
+.product__star_big{
+display: none;
+}
+.product__star_little{
+  display: none;
+}
+.product__button_little {
+  display: none;
+}
+.star__upper_right {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+ right: 100px;
+}
+.star__lower_right{
+  position: absolute;
+  width: 39px;
+  height: 41px;
+ right: 50px;
+}
 
+
+.button-play{
+width: 285px;
+height: 55px;
+padding: 16px 28px 16px 28px;
+border-radius: 60px 60px 60px 60px;
+background-color: #202027;
+border-color: #202027;
+font-family: Montserrat;
+line-height: 34.01px;
+text-align: center;
+border: 1px solid rgb(32, 32, 39);
 color: rgb(255, 255, 255);
 font-family: Montserrat;
 font-size: 16px;
 font-weight: 600;
 line-height: 141.69%;
 text-align: center;
-  }
-  .pole {
-   
-    margin-left: 40px;
-    margin-top: 0;
-    width: 284px;
-    height: 182px;
-  }
-  .button-play {
-    width: 247px;
-    height: 66px;
-    padding: 16px 28px 16px 28px;
-    border-radius: 60px 60px 60px 60px;
-    background-color: #202027;
-    border-color: #202027;
-    color: #fff;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 34.01px;
-    text-align: center;
-    border: 1px solid rgb(32, 32, 39);
-    margin-top: 9px;
-  }
-  
-  .pole1 {
-    margin-left: 40px;
-    margin-top: 0px;
-    width: 284px;
-    height: 182px;
-  }
-  
-  .pole3 {
-    margin-left: 40px;
-    margin-top: 0px;
-    width: 284px;
-    height: 182px;
-  }
-
-  .pole4 {
-    margin-left: 40px;
-    margin-top: 0px;
-    width: 284px;
-    height: 182px;
-  }
-  .polet{
-    color: rgb(0, 0, 0);
-font-family: Montserrat;
-font-size: 16px;
-font-weight: 600;
-line-height: 20px;
-letter-spacing: 0px;
-text-align: center;
-padding-top: 40px;
-  }
-  .pol1{
-    background-color: rgb(225, 255, 143);
-    height: 100px;
-  }
-  .star-end1{
-display: none;
-  }
-  .star-end2{
-   display: none;
-     }
-  .star-end3{
-    display: none;
-     }
-  .star-end4{
-   display: none;
-   }
-
+}
+.footer__description{
+  position: absolute;
+  height: 20px;
+  left: 93px;
+}
 }

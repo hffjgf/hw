@@ -16,7 +16,7 @@ a {
   padding-right: calc(50% - 600px);
 }
 
-.multi-bg-example {
+.header {
   background-color: rgb(225, 255, 143);
   height: 900px;
   background-repeat: no-repeat;
@@ -25,7 +25,7 @@ a {
   block-size: 750px;
 }
 
-.multi-text {
+.header__text_big {
   color: rgb(32, 32, 39);
   font-family: Montserrat;
   font-size: 64px;
@@ -34,7 +34,7 @@ a {
   padding-top: 196px;
 }
 
-.multi-mini__text {
+.header__text_little {
   color: rgb(32, 32, 39);
   font-family: Montserrat;
   font-size: 24px;
@@ -43,7 +43,7 @@ a {
   margin-top: 24px;
 }
 
-.multi-button{
+.header-button{
   background: rgb(0, 0, 0);
   text-align: center;
   border: 1px solid #fff;
@@ -62,46 +62,46 @@ a {
   color:#fff;
 }
 
-.button2:hover {
+.header-button:hover {
   background: white;
     text-align: center;
     border: 1px solid #202027;
     color: black;
 }
 
-.star-polaris{
+.star__lower_left {
   position: absolute;
   display: flex;
   margin-top: 94px;
   right: 1600px;
 }
 
-.star-sirius{
+.star__upper_left{
   position: absolute;
   margin-top: 69px;
 }
 
-.star-antares {
+.star__upper_right {
   position: absolute;
   margin-left: 450px;
   margin-top: 100px;
   width: 83px;
 }
 
-.star-arcturus{
+.star__lower_right{
   position: absolute;
   margin-left: 400px;
   margin-top: 60px;
   width: 37px;
 }
 
-.star-box {
+.module__game{
   background-color: rgb(32, 32, 39);
   position: relative;
   height: 1500px;
 }
 
-.boxing-game{
+.module__game_title{
   color: rgb(255, 255, 255);
   font-family: Montserrat;
   font-size: 64px;
@@ -111,7 +111,7 @@ a {
   padding-top: 94px;
 }
 
-.description__game {
+.modile__description_game {
   color: rgb(255, 255, 255);
   font-family: Montserrat;
   font-size: 24px;
@@ -120,65 +120,89 @@ a {
   text-align: left;
   margin-top: 24px;
 }
+.cart__left_lower{
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  height: 551px;
+  transform: scale(1);
+  transition: ls;
+  margin-top: 70px;
+}
 
-.cart-mini {
+.cart__left_upper{
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
   height: 473px;
   transform: scale(1);
   transition: ls;
+  margin-top: 10px;
 }
 
-.cart-avarage{
+.cart__center_upper{
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
   height: 512px;
   transform: scale(1);
   transition: ls;
+  margin-top: 30px;
 }
 
-.cart-right{
+.cart__center_lower{
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
   transform: scale(1);
   transition: ls;
-  height: 473px;
-}
-
-.cart-hugev {
-  background-color: #fff;
-  width: 378px;
-  margin-top: 36px;
-  border-radius: 30px;
-  height: 551px;
-  transform: scale(1);
-  transition: ls;
-}
-
-.cart-big{
-  background-color: #fff;
-  width: 378px;
+  height: 512px;
   margin-top: 40px;
-  border-radius: 30px;
-  height: 512px;
-  transform: scale(1);
-  transition: ls;
 }
 
-.cart-huge{
+
+
+
+.cart__right_upper{
   background-color: #fff;
   width: 378px;
-  margin-top: 36px;
+  border-radius: 30px;
+  height: 473px;
+  transform: scale(1);
+  transition: ls;
+  margin-top: 30px;
+}
+.cart__right_lower{
+  background-color: #fff;
+  width: 378px;
+  margin-top: 10px;
   border-radius: 30px;
   height: 551px;
   transform: scale(1);
   transition: ls;
+  margin-top: 40px;
+}
+.cart__right_lower:hover{
+  background-color: #fff;
+  width: 378px;
+  margin-top: 10px;
+  border-radius: 30px;
+  height: 551px;
+  transform: scale(1.1);
+  transition: ls;
+  margin-top: 40px;
 }
 
-.cart-mini:hover {
+.cart__right_upper:hover{
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  height: 473px;
+  transform: scale(1.1);
+  transition: ls;
+  margin-top: 30px;
+}
+.cart__left_upper:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -186,7 +210,7 @@ a {
   transition: ls;
 }
 
-.cart-avarage:hover {
+.cart__left_lower:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -196,7 +220,7 @@ a {
 
 
 
-.cart-huge:hover {
+.cart__center_upper:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
@@ -204,12 +228,13 @@ a {
   transition: ls;
 }
 
-.cart-big:hover {
+.cart__center_lower:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
   transform: scale(1.1);
   transition: ls;
+  height: 512px;
 }
 
 .cart-hugev:hover {
@@ -219,7 +244,7 @@ a {
   transform: scale(1.1);
   transition: ls;
 }
-.cart-number{
+.cart__number{
   margin-left: 32px;
   margin-top: 16px;
   background: rgb(247, 247, 247);
@@ -230,21 +255,19 @@ font-family: Montserrat;
 text-align: center;
 
 }
-.text2 {
+.cart__drawing{
   border-radius: 52.58px;
-  background: rgb(247, 247, 247);
   color: rgb(32, 32, 39);
   font-size: 16px;
   font-weight: 500;
   line-height: 35px;
   width: 108px;
   height: 36px;
-  margin-left: 16px;
   margin-top: 8px;
   text-align: center;
 }
 
-.cart-name{
+.cart__name{
   color: rgb(32, 32, 39);
   font-family: Montserrat;
   font-size: 32px;
@@ -257,14 +280,14 @@ text-align: center;
   margin-bottom: 20px;
 }
 
-.black-block {
+.cart{
   margin-top: 40px;
   display: flex;
   gap: 32px;
      
 }
 
-.star-rigel{
+.module__star_big{
   position: absolute;
   transform: scale(1);
   transition: ls;
@@ -272,14 +295,14 @@ text-align: center;
   top: 88px;
 }
 
-.star-vega {
+.module__star_upper{
   position: absolute;
   width: 32px;
   right: 1650px;
   top: 750px;
 }
 
-.star-altair{
+.module__star_lower{
   top: 800px;
   position: absolute;
   width: 55px;
@@ -289,7 +312,7 @@ text-align: center;
 
 
 
-.mini-game{
+.product__title{
   font-family: Montserrat;
   font-size: 64px;
   font-weight: 700;
@@ -322,47 +345,46 @@ text-align: center;
    font-family: Montserrat;
 }
 
-.game{
+.product__game_picture{
    border-radius: 30px 30px 30px 30px;
 }
 
-.game1{
-
+.product__game_number{
   background: rgb(255, 255, 255);
   width: 1188px;
   height: 500px;
   border-radius: 52px;
   margin-top: 25px
 }
-.game2{
+.product__game_arithmetic{
   background: rgb(255, 255, 255);
   width: 1188px;
   height: 500px;
   border-radius: 52px;
   margin-top: 25px
 }
-.game3{
+.product__game_text{
   background: rgb(255, 255, 255);
   width: 1188px;
   height: 500px;
   border-radius: 52px;
   margin-top: 25px
 }
-.game4{
+.product__game_vectoring{
   background: rgb(255, 255, 255);
   width: 1188px;
   height: 500px;
   border-radius: 52px;
   margin-top: 25px
 }
-.game5{
+.product__game_stone{
   background: rgb(255, 255, 255);
   width: 1188px;
   height: 500px;
   border-radius: 52px;
   margin-top: 25px
 }
-.game6{
+.product__game_generator{
   background: rgb(255, 255, 255);
   width: 1188px;
   height: 500px;
@@ -381,41 +403,55 @@ margin-left: 0px;
 width:600px;
 height: 500px;
 }
+.product{
+  height: 3400px;
+  background-color: rgb(32, 32, 39);
+  position: relative;
+ }
 
-.pole{
+.product__field_picture{
   margin-top: -418px;
   width: 399px;
   height: 228px;
   margin-left: 82px;
 }
 
-.pole1{
+.product__field_arithmetic{
   margin-top: -418px;
   width: 544px;
   height: 295px;
   margin-left: 664px;
 }
 
-.pole3{
+.product__field_text{
   margin-top: -418px;
   width: 493px;
   height: 344px;
   margin-left: 64px;
 }
 
-.pole4{
+.product__field_vectorihg{
   margin-top: -451px;
   width: 515px;
   height: 344px;
   margin-left: 636px;
 }
- .for-box__big{
-  height: 3400px;
-  background-color: rgb(32, 32, 39);
-  position: relative;
- }
 
-.title-game{
+.product__field_stone{
+  margin-top: -418px;
+  width: 493px;
+  height: 344px;
+  margin-left: 64px;
+}
+
+.product__field_generator{
+  margin-top: -451px;
+  width: 515px;
+  height: 344px;
+  margin-left: 636px;
+}
+
+.product__text_title{
   margin-bottom: 20px;
   font-family: Montserrat;
   font-size: 48px;
@@ -423,32 +459,13 @@ height: 500px;
   line-height: 58.51px;
   text-align: left;        
 }
-
-.title-game1{
-  margin-bottom: 20px;
-  font-family: Montserrat;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 58.51px;
-  text-align: left;        
-}
-
-.describe{
+.product__description{
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
   text-align: left;        
   margin-bottom: 10px;
-}
-
-.describe1{
-  font-family: Montserrat;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 32px;
-  text-align: left;        
-  margin-bottom: 20px;
 }
 
 .rules{
@@ -468,65 +485,39 @@ height: 500px;
   color: black;
 }
 
-.star-end1{
+.product__star_big{
   position: absolute;
     margin-left: 1180px;
     margin-top: -35px;
     width: 58px;
 }
 
-.star-end2{
+.product__star_little{
   position: absolute;
   margin-left: 1124px;
   margin-top: -61px;
   width: 36px;
 }
 
-.star-end3{
+.product__button_little{
   position: absolute;
   margin-left: 1104px;
   margin-top: 50px;
 }
 
-.star-end4{
+.product__button_big{
   position: absolute;
   margin-left: 1177px;
   margin-top: 4px;
 }
 
-.emoji{
-  position: absolute;
-  rotate: 7deg;
-  margin-left: -233px;
-  margin-top: 105px;
-  width: 90px;
-  height: 93px;
-}
 
-.emoji1{
-  position: absolute;
-  rotate: 5deg;
-  margin-left: 818px;
-  margin-top: -325px;
-  width: 143px;
-  height: 141px;
-}
-
-.catalog{
-  font-family: Montserrat;
-  font-size: 94px;
-  font-weight: 600;
-  line-height: 39.26px;
-  text-align: center;
-  padding-top: 60px;
-  color: black;
-}
-.pol1{
+.footer{
   background-color: #BDED35;
 
   height: 150px;
 }
-.polet{
+.footer__description{
   color: rgb(0, 0, 0);
 font-family: Montserrat;
 font-size: 24px;
