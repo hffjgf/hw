@@ -82,17 +82,16 @@ a {
 }
 
 .star__upper_right {
-  position: absolute;
-  margin-left: 450px;
-  margin-top: 100px;
-  width: 83px;
+position: absolute;
+margin-left: 900px;
+width: 37px;
 }
 
 .star__lower_right{
   position: absolute;
-  margin-left: 400px;
+  margin-left: 1000px;
   margin-top: 60px;
-  width: 37px;
+  width: 83px;
 }
 
 .module__game{
@@ -377,13 +376,15 @@ text-align: center;
   border-radius: 52px;
   margin-top: 25px
 }
-.product-game_stone{
+.product-game_stone {
   background: rgb(255, 255, 255);
   width: 1188px;
   height: 500px;
   border-radius: 52px;
-  margin-top: 25px
+  margin-top: 25px;
+  overflow: hidden;
 }
+
 .product-game_generator{
   background: rgb(255, 255, 255);
   width: 1188px;

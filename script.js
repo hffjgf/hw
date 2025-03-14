@@ -53,18 +53,22 @@ function checkEvenOdd(n) {
 console.log(checkEvenOdd(4));  // Вывод: "Число четное"
 console.log(checkEvenOdd(7));  // Вывод: "Число нечетное"
 //Задача 3
-function createGetSquare() {
-    return function(number) {
-        return number ** 2;
-    };
+function getSquare(number) {
+    return number ** 2; 
 }
+
+// Пример использования:
+const result = getSquare(4);
+console.log(result);
+
+console.log(getSquare(6)); 
 
 const getSquare = createGetSquare();
 //Задача 4
 function whatAge(age){
     if (age < 0) {
         alert('Вы ввели неправильное значение')
-    } else if ((age === 0) || (age <= 12)){
+    } else if (age <= 12){
         alert('Привет, друг!')
     } else if (age >= 13){
         alert('Добро пожаловать!')
@@ -106,6 +110,7 @@ function cubeNumber() {
 for (let i = 0; i <= 10; i++) {
     console.log(cubeNumber());
 }
+//задание7
 // Создаем объект circle1
 const circle1 = {
     radius: 5, // Радиус первого круга
