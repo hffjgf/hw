@@ -10,13 +10,15 @@
 <body>
     <script src="script.js"></script>
     <header class="header center">
-        <a class="header-star" href="#"><img class="star__upper_left" src="img/star1.svg" alt="star2"></a>
-        <a class="header-star" href="#"><img class="star__lower_left" src="img/star2.svg" alt="star2"></a>
+        <a class="header-star"><img class="star__upper_left" src="img/star1.svg" alt="star2"></a>
+        <a class="header-star"><img class="star__lower_left" src="img/star2.svg" alt="star2"></a>
         <h1 class="header__text_big">Добро пожаловать <br/>на мой сайт мини-игр</h1>
         <p class="header__text_little">Тебе предстоит пройти несколько увлекательных игр. <br/>Если готов, нажимай  <b>«Поехали!»</b>и <b>приступай</b> </p>
-        <a class="header-button" href="#game"> Поехали!</a>
-        <a class="header-star" href="#"><img class="star__upper_right" src="img/Star3.svg" alt="star2"></a>
-        <a class="header-star" href="#"><img class="star__lower_right" src="img/Star4.svg" alt="star2"></a>
+        <a href="#game"> 
+        <button  style="display: table; height: 66px;" class="header-button" > Поехали! </button>
+        </a>
+        <a class="header-star" ><img class="star__upper_right" src="img/Star3.svg" alt="star2"></a>
+        <a class="header-star" ><img class="star__lower_right" src="img/Star4.svg" alt="star2"></a>
     </header>
         <section class="module__game center" id="game">
             <div class="module__game_cart">
@@ -30,16 +32,18 @@
         <div class="cart" >
                 <div class="cart__left">
                     <article class="cart__left_upper">
-                        <a class="cart__drawing" href="#igra1"><img class="cart-img1" src="img/k1.svg" alt="star2" ></a>
+                        <a class="cart__drawing" href="#igra1" > <img class="cart-img1"  src="img/k1.svg" alt="star2" ></a>
                         <p class="cart__number">Игра № 1</p>
                         <h3 class="cart__name">Угадай число</h3>
                     </article>
+                    
                         <article class="cart__left_lower">
-                        <a class="cart__drawing" href="#igra4"><img class="cart-img4" src="img/k4.svg" alt="star2"></a>
+                        <a class="cart__drawing" href="#igra4"><img class="cart-img4" src="img/k4.svg" alt="star2"> </a>
                         <p class="cart__number">Игра № 4</p>
                         <h3 class="cart__name">Камень,<br/>ножницы,<br/>бумага</h3>
-                        </article>
+                        </article> 
                     </div>
+                    
                 
                     <div class="cart__center">
                     <article class="cart__center_upper">
@@ -98,16 +102,16 @@
                      </article>
             
                      <article class="product-game_vectoring" id="igra5">
-                        <a class="product__game_picture" href="#"><img class="game-img2" src="img/k4.svg" alt="star2"></a>
+                        <a class="product__game_picture" href="#"><img class="game-img2" src="img/k5.svg" alt="star2"></a>
                         <div class="product__field_vectorihg">
-                        <h4 class="product__text_title"><b>Векторина</b></h4>
+                        <h4 class="product__text_title"><b>Викторина</b></h4>
                         <p class="product__description">Отвечай на вопросы векторины с вариантами ответов.</p>
                         <button class="button-play">Играть!</button>
                     </div>
                      </article>
             
                      <article class="product-game_stone" id="igra4">
-                        <a class="product__game_picture" href="#"><img class="game-img1" src="img/k5.svg" alt="star2"></a>
+                        <a class="product__game_picture" href="#"><img class="game-img1" src="img/k5.jpg" alt="star2"></a>
                         <div class="product__field_stone">
                         <h4 class="product__text_title"><b>Камень,<br>ножницы,<br> бумага</b></h4>
                         <p class="product__description">Сыграй в популярную игру против компьютера.</p>
