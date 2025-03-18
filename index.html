@@ -8,14 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="script.js"></script>
+    <script> src="tasks.js"</script>
+    <script src="script1.js"></script>
+    <script src="script2.js"></script>
     <header class="header center">
         <a class="header-star"><img class="star__upper_left" src="img/star1.svg" alt="star2"></a>
         <a class="header-star"><img class="star__lower_left" src="img/star2.svg" alt="star2"></a>
         <h1 class="header__text_big">Добро пожаловать <br/>на мой сайт мини-игр</h1>
         <p class="header__text_little">Тебе предстоит пройти несколько увлекательных игр. <br/>Если готов, нажимай  <b>«Поехали!»</b>и <b>приступай</b> </p>
         <a href="#game"> 
-        <button  style="display: table; height: 66px;" class="header-button" > Поехали! </button>
+        <button class="header-button" > Поехали! </button>
         </a>
         <a class="header-star" ><img class="star__upper_right" src="img/Star3.svg" alt="star2"></a>
         <a class="header-star" ><img class="star__lower_right" src="img/Star4.svg" alt="star2"></a>
@@ -31,43 +33,54 @@
             <img class="module__star_big" src="img/Star12.svg" alt="star2">
         <div class="cart" >
                 <div class="cart__left">
+                    <a href="#igra1" >
                     <article class="cart__left_upper">
-                        <a class="cart__drawing" href="#igra1" > <img class="cart-img1"  src="img/k1.svg" alt="star2" ></a>
+                         <img class="cart-img4"  src="img/k1.svg" class=" cart__drawing" alt="star2" >
                         <p class="cart__number">Игра № 1</p>
                         <h3 class="cart__name">Угадай число</h3>
                     </article>
-                    
+                    </a>
+                    <a href="#igra4">
                         <article class="cart__left_lower">
-                        <a class="cart__drawing" href="#igra4"><img class="cart-img4" src="img/k4.svg" alt="star2"> </a>
+                            <img class="cart-img4"  src="img/k4.svg"class="cart__drawing"  alt="star2">              
                         <p class="cart__number">Игра № 4</p>
                         <h3 class="cart__name">Камень,<br/>ножницы,<br/>бумага</h3>
                         </article> 
+                    </a>
                     </div>
                     
                 
                     <div class="cart__center">
+                     <a href="#igra2">
                     <article class="cart__center_upper">
-                        <a class="cart__drawing" href="#igra2"><img class="cart-img2" src="img/k2.svg" alt="star2"></a>
+                        <img class="cart-img2" src="img/k2.svg"class="cart__drawing" alt="star2">
                         <p class="cart__number">Игра № 2</p>
                         <h3 class="cart__name">Простая арифметика</h3> 
                     </article>
+                        </a>
+                        <a href="#igra5">
                         <article class="cart__center_lower">
-                        <a class="cart__drawing" href="#igra5"><img class="cart-img5" src="img/k5.svg" alt="star2"></a>
+                         <img class="cart-img5" src="img/k5.svg" class="cart__drawing" alt="star2">
                         <p class="cart__number">Игра № 5</p>
                         <h3 class="cart__name">Простая <br/>викторина</h3>
                         </article>
+                        </a>
                 </div>
                     <div class="cart__right">
+                        <a href="#igra3">
                     <article class="cart__right_upper">
-                        <a class="cart__drawing" href="#igra3"><img class="cart-img3" src="img/k3.svg" alt="star2" ></a>
+                        <img class="cart-img3" src="img/k3.svg"  src="img/k3.svg" alt="star2" >
                         <p class="cart__number">Игра № 3</p>
                         <h3 class="cart__name">Переверни текст</h3>
                     </article>
+                        </a>
+                        <a href="#igra6">
                         <article class="cart__right_lower">
-                        <a class="cart__drawing" href="#igra6"><img class="cart-img6" src="img/k6.svg" alt="star2"></a>
+                         <img class="cart-img6" src="img/k6.svg"  class="cart__drawing" alt="star2">
                         <p class="cart__number">Игра № 6</p>
                         <h3 class="cart__name">Генератор <br/> случайных<br/> цветов</h3>
                         </article>
+                        </a>
                     </div>
                   </div>
         </section>
@@ -81,15 +94,15 @@
                         <div class="product__field_picture">
                         <h4 class="product__text_title"><b>Угадай число</b></h4>
                         <p class="product__description">Попробуй угадать случайное число от 1 до 100.</p>
-                        <button onclick=" checkGuess();" class="button-play">Играть!</button>
+                        <button onclick="checkGuess();" class="button-play">Играть!</button>
                     </div>
                      </article>
                      <article class="product-game_arithmetic" id="igra2">
                         <a class="product__game_picture" href="#"><img class="game-img2" src="img/k2.svg" alt="star2"></a>
                         <div class="product__field_arithmetic">
                         <h4 class="product__text_title"><b>Простая арифметика</b></h4>
-                        <p class="product__description">Попробуй решить простые арифметические задачи.</p>
-                        <button class="button-play">Играть!</button>
+                        <p  class="product__description">Попробуй решить простые арифметические задачи.</p>
+                        <button onclick="playGame();" class="button-play">Играть!</button>
                     </div>
                      </article>
                      <article class="product-game_text" id="igra3">
