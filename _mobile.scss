@@ -4,25 +4,24 @@
         padding-right: 16px;
       }
 .header-button{
-  position: static;
+  display: table;
   background: rgb(0, 0, 0);
   text-align: center;
   border: 1px solid #fff;
   box-sizing: border-box;
   border-radius: 60px;
   margin-top: 18px;
-  height: 55px;
+  height: 66px;
   width: 247px;
   font-size: 16px;
   font-weight: 400;
   line-height: 50px;
-  margin-left: 5px;
+  margin-left: 50px;
   font-size: 24px;
-  margin-left: 52px;
   margin-top: 48px;
   display: inline-block;
   color: #fff;
-  right: 90px;
+  font-family: Montserrat;
 
 }     
 .header-button:hover{
@@ -33,18 +32,17 @@
   box-sizing: border-box;
   border-radius: 60px;
   margin-top: 18px;
-  height: 55px;
+  height: 66px;
   width: 247px;
   font-size: 16px;
   font-weight: 400;
   line-height: 50px;
-  margin-left: 5px;
+  margin-left: 50px;
   font-size: 24px;
-  margin-left: 52px;
   margin-top: 48px;
   display: inline-block;
   color: #0f0f0f;
-  right: 90px;
+
 
 }      
 .header{
@@ -120,7 +118,7 @@ padding-top: 50px;
 }
 
 .product{
-    height: 3700px;
+    height: 3740px;
 }
 .product__game {
   display: flex
@@ -131,15 +129,13 @@ padding-top: 50px;
 .product-game_number {
   background-color: #fff;
   width: 343px;
-  margin-top: 36px;
   border-radius: 28px;
-  height: 551px;
+  height: 527px;
   }
 
   .product-game_arithmetic{
   background-color: #fff;
   width: 343px;
-  margin-top: 36px;
   border-radius: 28px;
   height: 561px;
   }
@@ -151,35 +147,31 @@ padding-top: 50px;
   .product-game_text{
     background-color: #fff;
     width: 343px;
-    margin-top: 36px;
     border-radius: 28px;
-    height: 520px;
+    height: 566px;
     }
 
   .product-game_vectoring{
   background-color: #fff;
   width: 343px;
-  margin-top: 36px;
   border-radius: 28px;
-  height: 566px;
+  height: 528px;
   }
   .product-game_stone {
     background-color: #fff;
     width: 343px;
-    margin-top: 36px;
     border-radius: 28px;
-    height: 528px;
+    height: 606px;
     }
     .product-game_generator {
       background-color: #fff;
       width: 343px;
-      margin-top: 36px;
       border-radius: 28px;
-      height: 606px;
+      height: 626px;
       }
       .product__field_picture{
         margin-left: 40px;
-        margin-top: 25px;
+        margin-top: 29px;
         width: 284px;
         height: 182px;
     }
@@ -188,9 +180,8 @@ padding-top: 50px;
     .product-game_arithmetic {
       background-color: #fff;
       width: 343px;
-      margin-top: 36px;
       border-radius: 28px;
-      height: 626px;
+      height: 566px;
   }
   .product-game_picture{
       margin-left: -1px;
@@ -204,29 +195,30 @@ padding-top: 50px;
   }
   .product__field_arithmetic{
     margin-left: 40px;
-        margin-top: 0px;
+        margin-top: 29px;
         width: 284px;
         height: 182px;
     }
     .product__field_text{
       margin-left: 40px;
-        margin-top: 0px;
+        margin-top: 29px;
         width: 284px;
         height: 182px;
     }
     .product__field_vectorihg{
       margin-left: 40px;
-      margin-top: 0px;
+      margin-top: 29px;
       width: 284px;
       height: 182px;}
+
     .product__field_stone{
       margin-left: 40px;
-      margin-top: 0px;
+      margin-top: 29px;
       width: 284px;
       height: 182px;}
     .product__field_generator{
       margin-left: 40px;
-      margin-top: 0px;
+      margin-top: 29px;
       width: 284px;
       height: 182px;}
     .product__text_title{
