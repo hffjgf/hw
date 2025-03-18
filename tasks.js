@@ -1,187 +1,156 @@
-//задача1
-const array = [1, 5, 4, 10, 0, 3];
+//задачка1
 
-for (let i = 0; i < array.length; i++) {
-    console.log(array[i]); // Выводим текущий элемент массива
-    if (array[i] === 10) { // Проверяем, равен ли текущий элемент 10
-        break; // Прерываем цикл, если нашли 10
-    }
-}
+const str = 'js';
+const upperCaseStr = str.toUpperCase();
 
-//задача2
-const array = [1, 5, 4, 10, 0, 3];
-const index = array.indexOf(4); // Ищем индекс значения 4
+console.log(upperCaseStr); // Вывод: "JS"
 
-console.log(index); // Выводим результат в консоль
+
+//задачка2
+function filterStringsStartingWith(arr, prefix) {
+    // Приводим префикс к нижнему регистру для сравнения
+    const lowerCasePrefix = prefix.toLowerCase();
+  
+    // Фильтруем массив, оставляя только строки, которые начинаются с префикса
+    return arr.filter(str => str.toLowerCase().startsWith(lowerCasePrefix));
+  }
+  
+  // Пример использования функции
+  const words = ["Apple", "Banana", "apricot", "Avocado", "berry", "apartment"];
+  const prefix = "ap";
+  
+  const result = filterStringsStartingWith(words, prefix);
+  console.log(result); // Вывод: ["Apple", "apricot", "apartment"]
+
 //задача3
-const array = [1, 3, 5, 10, 20];
-const result = array.join(' '); // Объединяем элементы массива через пробел
+const number = 32.58884;
 
-console.log(result); // Выводим
+// Округление до меньшего целого
+const floorResult = Math.floor(number);
+
+// Округление до большего целого
+const ceilResult = Math.ceil(number);
+
+// Округление до ближайшего целого
+const roundResult = Math.round(number);
+
+// Вывод результатов
+console.log("До меньшего целого:", floorResult); // 32
+console.log("До большего целого:", ceilResult);  // 33
+console.log("До ближайшего целого:", roundResult); // 33
+
 
 //задача4
-const rows = 3; // Количество строк
-const cols = 3; // Количество столбцов
-const value = 1; // Значение, которым заполняется массив
+// Набор чисел
+const numbers = [52, 53, 49, 77, 21, 32];
 
-// Создаем пустой многомерный массив
-const multiArray = [];
+// Нахождение минимального значения
+const minValue = Math.min(...numbers);
 
-// Внешний цикл для создания строк
-for (let i = 0; i < rows; i++) {
-    // Создаем пустую строку (внутренний массив)
-    const row = [];
+// Нахождение максимального значения
+const maxValue = Math.max(...numbers);
 
-    // Внутренний цикл для заполнения строки значениями
-    for (let j = 0; j < cols; j++) {
-        row.push(value); // Добавляем значение в строку
-    }
+// Вывод результатов в консоль
+console.log("Минимальное значение:", minValue); // 21
+console.log("Максимальное значение:", maxValue); // 77
 
-    // Добавляем строку в многомерный массив
-    multiArray.push(row);
-}
-
-console.log(multiArray); // Выводим результат в консоль
 
 //задача5
-// Исходный массив
-let arr1 = [1, 1, 1];
 
-// Добавляем значения 2, 2, 2 в конец массива
-arr1.push(2, 2, 2);
-
-// Выводим результат
-console.log(arr);
-
+function getRandomNumber() {
+    // Генерируем случайное число от 0 до 1, затем умножаем на 10 и округляем вниз
+    const randomNumber = Math.floor(Math.random() * 10) + 1;
+  
+    // Выводим результат в консоль
+    console.log(randomNumber);
+  }
+  
+  // Вызов функции
+  getRandomNumber()
 
 //задача6
-
-// Исходный массив
-let arr3 = [9, 8, 7, 'a', 6, 5];
-
-// Удаляем букву 'a' из массива
-arr = arr3.filter(item => typeof item !== 'string');
-
-// Сортируем массив
-arr.sort((a, b) => a - b);
-
-// Выводим результат
-console.log(arr);
+function generateRandomArray(num) {
+    // Проверяем, что число положительное и больше 0
+    if (num <= 0 || !Number.isInteger(num)) {
+      return "Пожалуйста, введите целое положительное число.";
+    }
+  
+    // Вычисляем длину массива (в два раза меньше числа)
+    const length = Math.floor(num / 2);
+  
+    // Создаем массив случайных чисел
+    const randomArray = Array.from({ length }, () => Math.floor(Math.random() * (num + 1)));
+  
+    // Возвращаем массив
+    return randomArray;
+  }
+  
+  // Пример использования функции
+  const result = generateRandomArray(10);
+  console.log(result); // Пример вывода: [3, 7, 2, 5, 8]
 
 
 //задача7
-// Исходный массив
-const arr2 = [9, 8, 7, 6, 5];
+function getRandomInRange(min, max) {
+  // Проверяем, что min и max — целые числа, и min <= max
+  if (!Number.isInteger(min) || !Number.isInteger(max) || min > max) {
+    return "Пожалуйста, введите два целых числа, где min <= max.";
+  }
 
-// Запрашиваем у пользователя число
-const userGuess = prompt("Угадайте число от 5 до 9:");
-
-// Проверяем, есть ли введенное значение в массиве
-if (arr2.includes(Number(userGuess))) {
-  alert("Угадал");
-} else {
-  alert("Не угадал");
+  // Генерируем случайное число в диапазоне [min, max]
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+// Пример использования функции
+const randomNumber = getRandomInRange(5, 10);
+console.log(randomNumber); // Пример вывода: 7
 //задача8
-// Исходная строка
-const str = 'abcdef';
+// Создаем объект Date для текущей даты и времени
+const currentDate = new Date();
 
-// Преобразуем строку в массив, переворачиваем и объединяем обратно в строку
-const reversedStr = str.split('').reverse().join('');
-
-// Выводим результат в консоль
-console.log(reversedStr);
-
+// Выводим текущую дату и время в консоль
+console.log("Текущая дата и время:", currentDate);
 //задача9
-// Исходный массив
-const arr = [[1, 2, 3], [4, 5, 6]];
+// Создаем объект Date для текущей даты
+const currentDate = new Date();
 
-// Преобразуем вложенный массив в одномерный
-const flatArr = arr.flat();
+// Выводим текущую дату
+console.log("Текущая дата:", currentDate.toLocaleDateString());
 
-// Выводим результат в консоль
-console.log(flatArr);
+// Вычисляем дату через 73 дня
+const futureDate = new Date(currentDate);
+futureDate.setDate(currentDate.getDate() + 73);
+
+// Выводим дату через 73 дня
+console.log("Дата через 73 дня:", futureDate.toLocaleDateString());
 
 //задача10
-// Создаем массив с произвольными числами от 1 до 10
-const arr = [3, 7, 2, 9, 5, 1, 8, 4, 6, 10];
-
-// Перебираем массив с помощью цикла for
-for (let i = 0; i < arr.length - 1; i++) {
-  // Вычисляем сумму текущего и следующего элементов
-  const sum = arr[i] + arr[i + 1];
+function formatDate(date) {
+    // Массивы для названий месяцев и дней недели на русском
+    const months = [
+      "января", "февраля", "марта", "апреля", "мая", "июня",
+      "июля", "августа", "сентября", "октября", "ноября", "декабря"
+    ];
+    const days = [
+      "воскресенье", "понедельник", "вторник", "среда",
+      "четверг", "пятница", "суббота"
+    ];
   
-  // Выводим результат в консоль
-  console.log(`Сумма элементов ${arr[i]} и ${arr[i + 1]}: ${sum}`);
-}
-//задача11
-nction squareArray(arr) {
-    // Используем метод map для создания нового массива
-    return arr.map(num => num * num);
+    // Получаем компоненты даты
+    const dayOfMonth = date.getDate();
+    const month = months[date.getMonth()];
+    const year = date.getFullYear();
+    const dayOfWeek = days[date.getDay()];
+  
+    // Получаем компоненты времени
+    const hours = String(date.getHours()).padStart(2, '0');
+    const minutes = String(date.getMinutes()).padStart(2, '0');
+    const seconds = String(date.getSeconds()).padStart(2, '0');
+  
+    // Формируем строку
+    return `Дата: ${dayOfMonth} ${month} ${year} — это ${dayOfWeek}.\nВремя: ${hours}:${minutes}:${seconds}`;
   }
   
-  // Пример использования функции
-  const numbers = [1, 2, 3, 4, 5];
-  const squaredNumbers = squareArray(numbers);
-  
-  // Выводим результат в консоль
-  console.log(squaredNumbers); // [1, 4, 9, 16, 25]
-
-
-//задача12
-// Функция для получения массива длин слов
-function getWordLengths(arr) {
-    // Используем метод map для создания нового массива
-    return arr.map(str => str.length);
-  }
-  
-  // Пример использования функции
-  const words = ["apple", "banana", "cherry", "date"];
-  const lengths = getWordLengths(words);
-  
-  // Выводим результат в консоль
-  console.log(lengths); // [5, 6, 6, 4]
-
-
-//задача13
-// Функция для фильтрации отрицательных чисел
-function filterNegativeNumbers(arr) {
-    // Используем метод filter для создания нового массива
-    return arr.filter(num => num < 0);
-  }
-  
-  // Пример использования функции
-  const numbers = [1, -2, 3, -4, 5, -6];
-  const negativeNumbers = filterNegativeNumbers(numbers);
-  
-  // Выводим результат в консоль
-  console.log(negativeNumbers); // [-2, -4, -6]
-
-//задача14
-// Создаем массив из 10 случайных чисел в диапазоне от 0 до 10
-const originalArray = Array.from({ length: 10 }, () => Math.floor(Math.random() * 11));
-
-// Фильтруем массив, оставляя только четные числа
-const evenNumbersArray = originalArray.filter(num => num % 2 === 0);
-
-// Выводим оба массива в консоль
-console.log("Исходный массив:", originalArray);
-console.log("Массив с четными значениями:", evenNumbersArray);
-
-//задача15
-// Создаем массив из 6 случайных чисел в диапазоне от 1 до 10
-const array = Array.from({ length: 6 }, () => Math.floor(Math.random() * 10) + 1);
-
-// Вычисляем сумму всех элементов массива
-const sum = array.reduce((acc, num) => acc + num, 0);
-
-// Вычисляем среднее арифметическое
-const average = sum / array.length;
-
-// Выводим массив и среднее арифметическое в консоль
-console.log("Массив:", array);
-console.log("Среднее арифметическое:", average);
-
-
-
-
+  // Пример использования
+  const currentDate = new Date();
+  console.log(formatDate(currentDate));
