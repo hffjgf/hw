@@ -23,5 +23,5 @@ function reverseText(text) {
   
   
   // Запускаем игру
-  playReverseGame();
+  
 }
