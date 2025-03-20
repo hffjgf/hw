@@ -349,7 +349,7 @@ width: 37px;
    font-family: Montserrat;
 }
 
-.product__game_picture{
+.product-game__picture{
    border-radius: 30px 30px 30px 30px;
 }
 
@@ -415,49 +415,49 @@ height: 500px;
   position: relative;
  }
 
-.product__field_picture{
+.product-game__field{
   margin-top: -448px;
   width: 399px;
   height: 228px;
   margin-left: 82px;
 }
 
-.product__field_arithmetic{
+.product-game__arithmetic{
   margin-top: -448px;
   width: 544px;
   height: 295px;
   margin-left: 664px;
 }
 
-.product__field_text{
+.product-game__text{
   margin-top: -448px;
   width: 493px;
   height: 344px;
   margin-left: 64px;
 }
 
-.product__field_vectorihg{
+.product-game__vectorihg{
   margin-top: -448px;
   width: 515px;
   height: 344px;
   margin-left: 636px;
 }
 
-.product__field_stone{
+.product-game__stone{
   margin-top: -448px;
   width: 493px;
   height: 344px;
   margin-left: 64px;
 }
 
-.product__field_generator{
+.product-game__generator{
   margin-top: -448px;
   width: 515px;
   height: 344px;
   margin-left: 636px;
 }
 
-.product__text_title{
+.product-game__title{
   margin-bottom: 20px;
   font-family: Montserrat;
   font-size: 48px;
@@ -465,7 +465,7 @@ height: 500px;
   line-height: 58.51px;
   text-align: left;        
 }
-.product__description{
+.product-game__description{
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 400;

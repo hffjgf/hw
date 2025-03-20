@@ -1,156 +1,102 @@
-//задачка1
+//задача1
+const people1 = [
+  { name: 'Глеб', age: 29 },
+  { name: 'Анна', age: 17 },
+  { name: 'Олег', age: 7 },
+  { name: 'Оксана', age: 47 }
+];
 
-const str = 'js';
-const upperCaseStr = str.toUpperCase();
+// Сортируем массив по возрастанию возраста
+const sortedPeople = people1.sort((a, b) => a.age - b.age);
 
-console.log(upperCaseStr); // Вывод: "JS"
+// Выводим отсортированный массив в консоль
+console.log(sortedPeople);
 
+//задача2
+// Функция для проверки, является ли число положительным
+function isPositive(number) {
+ return number > 0;
+}
 
-//задачка2
-function filterStringsStartingWith(arr, prefix) {
-    // Приводим префикс к нижнему регистру для сравнения
-    const lowerCasePrefix = prefix.toLowerCase();
-  
-    // Фильтруем массив, оставляя только строки, которые начинаются с префикса
-    return arr.filter(str => str.toLowerCase().startsWith(lowerCasePrefix));
-  }
-  
-  // Пример использования функции
-  const words = ["Apple", "Banana", "apricot", "Avocado", "berry", "apartment"];
-  const prefix = "ap";
-  
-  const result = filterStringsStartingWith(words, prefix);
-  console.log(result); // Вывод: ["Apple", "apricot", "apartment"]
+// Функция для проверки, является ли объект мужчиной
+function isMale(person) {
+ return person.gender === 'male';
+}
 
+// Реализация функции filter
+function filter(array, ruleFunction) {
+ const result = []; // Создаем пустой массив для результатов
+ for (let i = 0; i < array.length; i++) {
+     // Если ruleFunction возвращает true, добавляем элемент в результат
+     if (ruleFunction(array[i])) {
+         result.push(array[i]);
+     }
+ }
+ return result; // Возвращаем отфильтрованный массив
+}
+
+// Пример использования функции filter
+console.log(filter([3, -4, 1, 9], isPositive)); // [3, 1, 9]
+
+const people = [
+{name: 'Глеб', gender: 'male'},
+{name: 'Анна', gender: 'female'},
+{name: 'Олег', gender: 'male'},
+{name: 'Оксана', gender: 'female'}
+];
+
+console.log(filter(people, isMale)); 
+// [
+//   {name: 'Глеб', gender: 'male'},
+//   {name: 'Олег', gender: 'male'}
+// ]
 //задача3
-const number = 32.58884;
+// Функция для вывода текущей даты
+function printCurrentDate() {
+ console.log(new Date().toLocaleString());
+}
 
-// Округление до меньшего целого
-const floorResult = Math.floor(number);
+// Запускаем интервал, который будет выводить дату каждые 3 секунды
+const intervalId = setInterval(printCurrentDate, 3000);
 
-// Округление до большего целого
-const ceilResult = Math.ceil(number);
+// Останавливаем интервал через 30 секунд и выводим сообщение
+setTimeout(() => {
+ clearInterval(intervalId); // Останавливаем интервал
+ console.log("30 секунд прошло");
+}, 30000); // 30000 миллисекунд = 30 секунд
 
-// Округление до ближайшего целого
-const roundResult = Math.round(number);
-
-// Вывод результатов
-console.log("До меньшего целого:", floorResult); // 32
-console.log("До большего целого:", ceilResult);  // 33
-console.log("До ближайшего целого:", roundResult); // 33
 
 
 //задача4
-// Набор чисел
-const numbers = [52, 53, 49, 77, 21, 32];
+function delayForSecond(callback) {
+ // Используем setTimeout для задержки выполнения callback на 1 секунду
+ setTimeout(callback, 1000);
+}
 
-// Нахождение минимального значения
-const minValue = Math.min(...numbers);
-
-// Нахождение максимального значения
-const maxValue = Math.max(...numbers);
-
-// Вывод результатов в консоль
-console.log("Минимальное значение:", minValue); // 21
-console.log("Максимальное значение:", maxValue); // 77
+delayForSecond(function () {
+console.log('Привет, Глеб!');
+});
 
 
 //задача5
-
-function getRandomNumber() {
-    // Генерируем случайное число от 0 до 1, затем умножаем на 10 и округляем вниз
-    const randomNumber = Math.floor(Math.random() * 10) + 1;
-  
-    // Выводим результат в консоль
-    console.log(randomNumber);
-  }
-  
-  // Вызов функции
-  getRandomNumber()
-
-//задача6
-function generateRandomArray(num) {
-    // Проверяем, что число положительное и больше 0
-    if (num <= 0 || !Number.isInteger(num)) {
-      return "Пожалуйста, введите целое положительное число.";
-    }
-  
-    // Вычисляем длину массива (в два раза меньше числа)
-    const length = Math.floor(num / 2);
-  
-    // Создаем массив случайных чисел
-    const randomArray = Array.from({ length }, () => Math.floor(Math.random() * (num + 1)));
-  
-    // Возвращаем массив
-    return randomArray;
-  }
-  
-  // Пример использования функции
-  const result = generateRandomArray(10);
-  console.log(result); // Пример вывода: [3, 7, 2, 5, 8]
-
-
-//задача7
-function getRandomInRange(min, max) {
-  // Проверяем, что min и max — целые числа, и min <= max
-  if (!Number.isInteger(min) || !Number.isInteger(max) || min > max) {
-    return "Пожалуйста, введите два целых числа, где min <= max.";
-  }
-
-  // Генерируем случайное число в диапазоне [min, max]
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+// Функция delayForSecond через 1 секунду пишет в консоль 
+// «Прошла одна секунда», а затем вызывает переданный колбэк
+function delayForSecond(cb) {
+ setTimeout(() => {
+     console.log('Прошла одна секунда');
+     if (cb) { cb(); }
+ }, 1000);
 }
 
-// Пример использования функции
-const randomNumber = getRandomInRange(5, 10);
-console.log(randomNumber); // Пример вывода: 7
-//задача8
-// Создаем объект Date для текущей даты и времени
-const currentDate = new Date();
+// Функция sayHi выводит в консоль приветствие для указанного имени
+function sayHi(name) {
+ console.log(`Привет, ${name}!`);
+}
 
-// Выводим текущую дату и время в консоль
-console.log("Текущая дата и время:", currentDate);
-//задача9
-// Создаем объект Date для текущей даты
-const currentDate = new Date();
+// Код выше менять нельзя
 
-// Выводим текущую дату
-console.log("Текущая дата:", currentDate.toLocaleDateString());
+// Исправленный код ниже:
+delayForSecond(() => sayHi('Глеб'));
 
-// Вычисляем дату через 73 дня
-const futureDate = new Date(currentDate);
-futureDate.setDate(currentDate.getDate() + 73);
 
-// Выводим дату через 73 дня
-console.log("Дата через 73 дня:", futureDate.toLocaleDateString());
 
-//задача10
-function formatDate(date) {
-    // Массивы для названий месяцев и дней недели на русском
-    const months = [
-      "января", "февраля", "марта", "апреля", "мая", "июня",
-      "июля", "августа", "сентября", "октября", "ноября", "декабря"
-    ];
-    const days = [
-      "воскресенье", "понедельник", "вторник", "среда",
-      "четверг", "пятница", "суббота"
-    ];
-  
-    // Получаем компоненты даты
-    const dayOfMonth = date.getDate();
-    const month = months[date.getMonth()];
-    const year = date.getFullYear();
-    const dayOfWeek = days[date.getDay()];
-  
-    // Получаем компоненты времени
-    const hours = String(date.getHours()).padStart(2, '0');
-    const minutes = String(date.getMinutes()).padStart(2, '0');
-    const seconds = String(date.getSeconds()).padStart(2, '0');
-  
-    // Формируем строку
-    return `Дата: ${dayOfMonth} ${month} ${year} — это ${dayOfWeek}.\nВремя: ${hours}:${minutes}:${seconds}`;
-  }
-  
-  // Пример использования
-  const currentDate = new Date();
-  console.log(formatDate(currentDate));
