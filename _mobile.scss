@@ -169,7 +169,7 @@ padding-top: 50px;
       border-radius: 28px;
       height: 626px;
       }
-      .product__field_picture{
+      .product-game__field{
         margin-left: 40px;
         margin-top: 29px;
         width: 284px;
@@ -177,13 +177,9 @@ padding-top: 50px;
     }
     
 
-    .product-game_arithmetic {
-      background-color: #fff;
-      width: 343px;
-      border-radius: 28px;
-      height: 566px;
-  }
-  .product-game_picture{
+    
+  
+  .product-game__picture{
       margin-left: -1px;
       width: 343px;
       height: 283px;
@@ -193,35 +189,38 @@ padding-top: 50px;
       width: 343px;
       height: 283px;
   }
-  .product__field_arithmetic{
+  .product-game__arithmetic{
     margin-left: 40px;
         margin-top: 29px;
         width: 284px;
         height: 182px;
     }
-    .product__field_text{
+    .product-game__text{
       margin-left: 40px;
         margin-top: 29px;
         width: 284px;
         height: 182px;
     }
-    .product__field_vectorihg{
+    .product-game__vectorihg{
       margin-left: 40px;
       margin-top: 29px;
       width: 284px;
       height: 182px;}
 
-    .product__field_stone{
+    .product-game__stone{
       margin-left: 40px;
       margin-top: 29px;
       width: 284px;
       height: 182px;}
-    .product__field_generator{
+    .product-game__generator{
       margin-left: 40px;
       margin-top: 29px;
       width: 284px;
       height: 182px;}
-    .product__text_title{
+
+
+
+    .product-game__title{
     color: rgb(32, 32, 39);
     font-family: Montserrat;
     font-size: 32px;
@@ -232,7 +231,7 @@ padding-top: 50px;
     margin-bottom: 10px;
     width: 284px;
 }
-.product__description {
+.product-game__description {
 color: rgb(0, 0, 0);
 font-family: Montserrat;
 font-size: 16px;
