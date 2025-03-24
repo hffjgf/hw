@@ -1,5 +1,4 @@
-//задача угадай число 
-function checkGuess() {
+function startGame1() {
     // Генерация случайного числа от 1 до 100
     const randomNumber = Math.floor(Math.random() * 100) + 1;
     let attempts = 0;
@@ -7,10 +6,19 @@ function checkGuess() {
     // Основная функция для проверки числа
     function checkGuess() {
         // Запрашиваем ввод числа у пользователя
-        const userGuess = parseInt(prompt("Угадайте число от 1 до 100:"));
+        const userGuess = prompt("Угадайте число от 1 до 100:");
+
+        // Если пользователь нажал "Отмена", завершаем игру
+        if (userGuess === null) {
+            alert("Игра завершена. Вы вышли из игры.");
+            return; // Завершаем выполнение функции
+        }
+
+        // Преобразуем ввод в число
+        const guessNumber = parseInt(userGuess);
 
         // Проверяем, является ли ввод числом
-        if (isNaN(userGuess)) {
+        if (isNaN(guessNumber)) {
             alert("Пожалуйста, введите число!");
             checkGuess(); // Повторяем запрос
             return;
@@ -19,9 +27,9 @@ function checkGuess() {
         attempts++; // Увеличиваем счетчик попыток
 
         // Сравниваем введенное число с загаданным
-        if (userGuess === randomNumber) {
+        if (guessNumber === randomNumber) {
             alert(`Поздравляем! Вы угадали число за ${attempts} попыток.`);
-        } else if (userGuess < randomNumber) {
+        } else if (guessNumber < randomNumber) {
             alert("Загаданное число больше. Попробуйте еще раз.");
             checkGuess(); // Повторяем запрос
         } else {
