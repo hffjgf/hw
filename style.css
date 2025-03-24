@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -539,6 +540,78 @@ a {
   margin-top: 30px;
 }
 
+.cart-img4-1 {
+  margin-left: 110px;
+  position: relative;
+  top: -240px;
+}
+
+.cart__numbera {
+  margin-left: 32px;
+  margin-top: -146px;
+  background: rgb(247, 247, 247);
+  width: 111px;
+  height: 36px;
+  border-radius: 52.58px;
+  font-family: Montserrat;
+  text-align: center;
+  font-weight: 500;
+  line-height: 35px;
+  color: black;
+}
+
+.header1-tape {
+  position: relative;
+  height: 90px;
+  background: rgb(188, 236, 48);
+}
+
+.header-tape__item {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 51px;
+}
+
+.header-tape__game {
+  width: 36px;
+  height: 36px;
+  padding-left: 51px;
+  padding-top: 15px;
+}
+
+.header-game {
+  display: flex;
+  padding-top: 10px;
+  white-space: nowrap;
+}
+
+#tape {
+  white-space: nowrap; /* Запрещаем перенос строк */
+  position: absolute; /* Абсолютное позиционирование */
+}
+
+#tape span {
+  margin-right: 40px; /* Отступ между элементами */
+  font-size: 20px; /* Размер текста */
+}
+
+.header1-tape {
+  padding-bottom: 20px; /* "задвигаем" scrollbar за границы */
+  margin-bottom: -20px; /* компенсируем padding */
+  overflow-y: hidden;
+}
+
+.header-game {
+  animation: scroll 10s linear infinite;
+}
+
+.header-tape {
+  overflow: hidden;
+  position: relative;
+}
+
 @media (max-width: 1024px) {
   .center {
     padding-left: calc(50% - 393px);
@@ -911,5 +984,13 @@ a {
     position: absolute;
     height: 20px;
     left: 93px;
+  }
+}
+@keyframes scroll {
+  0% {
+    transform: translate(100);
+  }
+  0% {
+    transform: translate(-50%);
   }
 }/*# sourceMappingURL=style.css.map */

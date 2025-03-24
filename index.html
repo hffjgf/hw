@@ -14,6 +14,7 @@
     <script src="script3.js"></script>
     <script src="script4.js"></script>
     <script src="script5.js"></script>
+    <script src="script6.js"></script>
     <header class="header center">
         <a class="header-star"><img class="star__upper_left" src="img/star1.svg" alt="star2"></a>
         <a class="header-star"><img class="star__lower_left" src="img/star2.svg" alt="star2"></a>
@@ -24,7 +25,40 @@
         </a>
         <a class="header-star" ><img class="star__upper_right" src="img/Star3.svg" alt="star2"></a>
         <a class="header-star" ><img class="star__lower_right" src="img/Star4.svg" alt="star2"></a>
+        
     </header>
+    <section class="header1-tape" id="scrollContainer">
+        <div   class="header-game" >
+        <a class="header-tape__item">ВИКТОРИНА</a>
+            <img class="header-tape__game" src="img/Star.svg" alt="Иконка звезды">
+        <a class="header-tape__item">УГАДАЙ ЧИСЛО</a>
+            <img class="header-tape__game" src="img/Star.svg" alt="Иконка звезды">
+        <a class="header-tape__item">ПЕРЕВЕРНИ ТЕКСТ</a>
+            <img class="header-tape__game" src="img/Star.svg" alt="Иконка звезды">
+        <a class="header-tape__item">ПРОСТАЯ АРИФМЕТИКА</a>
+            <img class="header-tape__game" src="img/Star.svg" alt="Иконка звезды">
+        <a class="header-tape__item">КАМЕНЬ,НОЖНИЦЫ,БУМАГА</a>
+            <img class="header-tape__game" src="img/Star.svg" alt="Иконка звезды">
+        <a class="header-tape__item">ГЕНЕРАТОР СЛУЧАЙНЫХ ЦВЕТОВ</a>
+            <img class="header-tape__game" src="img/Star.svg" alt="Иконка звезды">
+
+            <a class="header-tape__item">ВИКТОРИНА</a>
+            <img class="header-tape__game" src="img/Star.svg" alt="Иконка звезды">
+        <a class="header-tape__item">УГАДАЙ ЧИСЛО</a>
+            <img class="header-tape__game" src="img/Star.svg" alt="Иконка звезды">
+        <a class="header-tape__item">ПЕРЕВЕРНИ ТЕКСТ</a>
+            <img class="header-tape__game" src="img/Star.svg" alt="Иконка звезды">
+        <a class="header-tape__item">ПРОСТАЯ АРИФМЕТИКА</a>
+            <img class="header-tape__game" src="img/Star.svg" alt="Иконка звезды">
+        <a class="header-tape__item">КАМЕНЬ,НОЖНИЦЫ,БУМАГА</a>
+            <img class="header-tape__game" src="img/Star.svg" alt="Иконка звезды">
+        <a class="header-tape__item">ГЕНЕРАТОР СЛУЧАЙНЫХ ЦВЕТОВ</a>
+            <img class="header-tape__game" src="img/Star.svg" alt="Иконка звезды">
+
+
+        </div>
+    </section>
+
         <section class="module__game center" id="game">
             <div class="module__game_cart">
             <h2 class="module__game_title" >Об игре</h2>
@@ -45,8 +79,9 @@
                     </a>
                     <a href="#igra4">
                         <article class="cart__left_lower">
-                            <img class="cart-img4"  src="img/k4.svg"class="cart__drawing"  alt="star2">              
-                        <p class="cart__number">Игра № 4</p>
+                            <img class="cart-img4"  src="img/k4.svg"   class="cart__drawing"  alt="star2"  > 
+                            <img class="cart-img4-1"  src="img/f.png"  alt="kul" >  
+                        <p class="cart__numbera">Игра № 4</p>
                         <h3 class="cart__name">Камень,<br/>ножницы,<br/>бумага</h3>
                         </article> 
                     </a>
@@ -87,7 +122,7 @@
                     </div>
                   </div>
         </section>
-                 <section class="product center">
+                 <section class="product center"id="game-6" >
                     <h3 class="product__title">Мини-игры</h3>
                     <img class="product__star_big" src="img/star21.svg" alt="star2">
                     <img class="product__star_little" src="img/Starb2.png" alt="star2">
@@ -97,7 +132,7 @@
                         <div class="product-game__field">
                         <h4 class="product-game__title"><b>Угадай число</b></h4>
                         <p class="product-game__description">Попробуй угадать случайное число от 1 до 100.</p>
-                        <button onclick="checkGuess();" class="button-play">Играть!</button>
+                        <button onclick="startGame();" class="button-play">Играть!</button>
                     </div>
                      </article>
                      <article class="product-game_arithmetic" id="igra2">
@@ -105,7 +140,7 @@
                         <div class="product-game__arithmetic">
                         <h4 class="product-game__title"><b>Простая арифметика</b></h4>
                         <p  class="product-game__description">Попробуй решить простые арифметические задачи.</p>
-                        <button onclick="playGame();" class="button-play">Играть!</button>
+                        <button onclick="playGame1();" class="button-play">Играть!</button>
                     </div>
                      </article>
                      <article class="product-game_text" id="igra3">
@@ -136,14 +171,16 @@
                      </article>
             
                      <article class="product-game_generator" id="igra6">
-                        <a class="product__game_picture" href="#"><img class="game-img2" src="img/k6.svg" alt="star2"></a>
+                        <a class="product__game_picture" href="#">
+                            <img class="game-img2" src="img/k6.svg" alt="star2">
+                        </a>
                         <div class="product-game__generator">
-                        <h4 class="product-game__title"><b>Генератор<br> случайных<br> цветов</b></h4>
-                        <p class="product-game__description">Игра, в которой при клике на кнопку фон страницы меняется на случайный.</p>
-                        <button class="button-play">Играть!</button>
-                    </div>
-                     </article>
-                    </div>
+                            <h4 class="product-game__title"><b>Генератор<br> случайных<br> цветов</b></h4>
+                            <p class="product-game__description">Игра, в которой при клике на кнопку фон страницы меняется на случайный.</p>
+                            <button onclick="changeBackground();"  class="button-play">Играть!</button>
+                        </div>
+                    </article>
+                  
                     <img class="product__button_little" src="img/Starb3.png" alt="star2">
                     <img class="product__button_big" src="img/Starb4.png" alt="star2">
                  </section>

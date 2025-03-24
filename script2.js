@@ -1,5 +1,5 @@
 // Основная функция игры
-function playGame() {
+function playGame1() {
     // Функция для генерации случайного числа в диапазоне [min, max]
     function getRandomNumber(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
