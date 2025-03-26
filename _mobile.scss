@@ -44,7 +44,13 @@
   color: #0f0f0f;
 
 
-}      
+}   
+.star__lower_left{
+  position: absolute;
+  display: flex
+;
+  margin-top: 94px;
+}   
 .header{
   background-image: url(img/Vector1.svg);
   background-color: rgb(225, 255, 143);
