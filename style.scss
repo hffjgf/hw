@@ -601,8 +601,8 @@ padding-left: 51px
 
 
 .header-game {
-
-  animation: scroll 10s linear infinite;
+  
+  animation: scroll 41s linear infinite;
 }
 .header-tape {
   overflow: hidden;
@@ -610,10 +610,9 @@ padding-left: 51px
 }
 
 
-
     @import 'tablet';
     @import 'mobile';
     @keyframes scroll {
-      0% { transform: translate(100); }
-      0% { transform: translate(-50%); }
+      0% { transform: translate(0); }
+      0% { transform: translate(-100%); }
     }
