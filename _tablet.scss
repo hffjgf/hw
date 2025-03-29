@@ -163,19 +163,20 @@
 }
 .star__lower_left{
   position: absolute;
-  display: flex
-;
-  margin-left: 14px;
-  margin-top: 94px;
-  right: 790px;
+  width: 57px;
+  height:57px;
+  right: 620px;
+  margin-left: 0px;
+  margin-right: 100px;
 }
 
 
 
 .star__upper_left {
   position: absolute;
-  margin-top: 69px;
-  margin-left: 75px;
+  width: 35px;
+  height: 35px;
+  right: 650px;
 }
 .module__game {
   display: none;
