@@ -62,6 +62,7 @@ a {
   margin-top: 48px;
   color: #fff;
   font-family: Montserrat;
+  scroll-behavior: smooth;
 }
 
 .header-button:hover {
@@ -75,7 +76,7 @@ a {
   position: absolute;
   display: flex;
   margin-top: 94px;
-  right: 1600px;
+  margin-left: -90px;
 }
 
 .star__upper_left {
@@ -583,8 +584,9 @@ a {
 
 .header-game {
   display: flex;
-  padding-top: 10px;
+  padding-top: 15px;
   white-space: nowrap;
+  align-items: flex-start;
 }
 
 #tape {
@@ -628,6 +630,7 @@ a {
 
 .button-play {
   transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  scroll-behavior: smooth;
 }
 
 .button-play:hover {
