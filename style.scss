@@ -1,7 +1,9 @@
+
 * {
   margin: 0;
   padding: 0;
 }
+
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -16,7 +18,7 @@ a {
   padding-right: calc(50% - 600px);
 }
 
-.multi-bg-example {
+.header {
   background-color: rgb(225, 255, 143);
   height: 900px;
   background-repeat: no-repeat;
@@ -25,7 +27,7 @@ a {
   block-size: 750px;
 }
 
-.text1 {
+.header__text_big {
   color: rgb(32, 32, 39);
   font-family: Montserrat;
   font-size: 64px;
@@ -34,7 +36,7 @@ a {
   padding-top: 196px;
 }
 
-.block {
+.header__text_little {
   color: rgb(32, 32, 39);
   font-family: Montserrat;
   font-size: 24px;
@@ -43,76 +45,66 @@ a {
   margin-top: 24px;
 }
 
-.button2 {
+.header-button{
+  display: table;
   background: rgb(0, 0, 0);
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   box-sizing: border-box;
   border-radius: 60px;
   margin-top: 18px;
-  height: 55px;
+  height: 66px;
   width: 247px;
   font-size: 16px;
   font-weight: 400;
-  line-height: 19px;
+  line-height: 50px;
   margin-left: 5px;
-  color: rgb(255, 255, 255);
-  font-family: Montserrat;
   font-size: 24px;
   margin-top: 48px;
-}
-
-.button2:hover {
-  background: rgb(255, 253, 253);
-  text-align: center;
-  box-sizing: border-box;
-  border-radius: 60px;
-  margin-top: 18px;
-  height: 55px;
-  width: 247px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  margin-left: 5px;
-  color: rgb(2, 2, 2);
+  color: #fff;
   font-family: Montserrat;
-  font-size: 24px;
-  margin-top: 48px;
+scroll-behavior: smooth;
 }
 
-.igra2 {
+.header-button:hover {
+  background: white;
+    text-align: center;
+    border: 1px solid #202027;
+    color: black;
+}
+
+.star__lower_left {
   position: absolute;
   display: flex;
   margin-top: 94px;
-  right: 1600px;
+ margin-left: -90px;
 }
 
-.igra1 {
+.star__upper_left{
   position: absolute;
   margin-top: 69px;
 }
 
-.igra3 {
+.star__upper_right {
+position: absolute;
+margin-left: 900px;
+width: 37px;
+}
+
+.star__lower_right{
   position: absolute;
-  margin-left: 450px;
-  margin-top: 100px;
+  margin-left: 1000px;
+  margin-top: 60px;
   width: 83px;
 }
 
-.igra4 {
-  position: absolute;
-  margin-left: 400px;
-  margin-top: 60px;
-  width: 37px;
-}
-
-.for-box {
+.module__game{
   background-color: rgb(32, 32, 39);
   position: relative;
   height: 1500px;
 }
 
-.box-igra1 {
+.module__game_title{
   color: rgb(255, 255, 255);
   font-family: Montserrat;
   font-size: 64px;
@@ -122,7 +114,7 @@ a {
   padding-top: 94px;
 }
 
-.box-igra2 {
+.modile__description_game {
   color: rgb(255, 255, 255);
   font-family: Montserrat;
   font-size: 24px;
@@ -131,118 +123,157 @@ a {
   text-align: left;
   margin-top: 24px;
 }
+.cart__left_lower{
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  height: 551px;
+  transform: scale(1);
+  transition: ls;
+  margin-top: 60px;
+}
 
-.cart1 {
+.cart__left_upper{
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
   height: 473px;
+  transform: scale(1);
+  transition: ls;
+  margin-top: 30px;
 }
 
-.cart2 {
+.cart__center_upper{
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
   height: 512px;
+  transform: scale(1);
+  transition: ls;
+  margin-top: 30px;
 }
 
-.cart3 {
+.cart__center_lower{
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
   transform: scale(1);
   transition: ls;
-  height: 473px;
+  height: 512px;
+  margin-top: 40px;
 }
 
-.cart4 {
+
+
+
+.cart__right_upper{
   background-color: #fff;
   width: 378px;
-  margin-top: 36px;
+  border-radius: 30px;
+  height: 473px;
+  transform: scale(1);
+  transition: ls;
+  margin-top: 30px;
+}
+.cart__right_lower{
+  background-color: #fff;
+  width: 378px;
+  margin-top: 10px;
   border-radius: 30px;
   height: 551px;
+  transform: scale(1);
+  transition: ls;
+  margin-top: 40px;
 }
-
-.cart5 {
+.cart__right_lower:hover{
   background-color: #fff;
   width: 378px;
-  margin-top: 40px;
+  margin-top: 10px;
   border-radius: 30px;
+  height: 551px;
+  transform: scale(1.1);
+  transition: ls;
+  margin-top: 40px;
+}
+
+.cart__right_upper:hover{
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  height: 473px;
+  transform: scale(1.1);
+  transition: ls;
+  margin-top: 30px;
+}
+.cart__left_upper:hover {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  transform: scale(1.1);
+  transition: ls;
+}
+
+.cart__left_lower:hover {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  transform: scale(1.1);
+  transition: ls;
+}
+
+
+
+.cart__center_upper:hover {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  transform: scale(1.1);
+  transition: ls;
+}
+
+.cart__center_lower:hover {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  transform: scale(1.1);
+  transition: ls;
   height: 512px;
 }
 
-.cart6 {
-  background-color: #fff;
-  width: 378px;
-  margin-top: 36px;
-  border-radius: 30px;
-  height: 551px;
-}
-
-.cart1:hover {
+.cart-hugev:hover {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
   transform: scale(1.1);
   transition: ls;
 }
-
-.cart2:hover {
-  background-color: #fff;
-  width: 378px;
-  border-radius: 30px;
-  transform: scale(1.1);
-  transition: ls;
-}
-
-.cart3:hover {
-  background-color: #fff;
-  width: 378px;
-  border-radius: 30px;
-  transform: scale(1.1);
-  transition: ls;
-}
-
-.cart4:hover {
-  background-color: #fff;
-  width: 378px;
-  border-radius: 30px;
-  transform: scale(1.1);
-  transition: ls;
-}
-
-.cart5:hover {
-  background-color: #fff;
-  width: 378px;
-  border-radius: 30px;
-  transform: scale(1.1);
-  transition: ls;
-}
-
-.cart6:hover {
-  background-color: #fff;
-  width: 378px;
-  border-radius: 30px;
-  transform: scale(1.1);
-  transition: ls;
-}
-
-.text2 {
-  border-radius: 52.58px;
+.cart__number{
+  margin-left: 32px;
+  margin-top: 16px;
   background: rgb(247, 247, 247);
-  color: rgb(32, 32, 39);
+  width: 111px;
+  height: 36px;
+  border-radius: 52.58px;
   font-family: Montserrat;
+  text-align: center;
+  font-weight: 500;
+  line-height: 35px;
+  color: black;
+
+}
+.cart__drawing{
+  border-radius: 52.58px;
+  color: rgb(32, 32, 39);
   font-size: 16px;
   font-weight: 500;
   line-height: 35px;
   width: 108px;
   height: 36px;
-  margin-left: 16px;
   margin-top: 8px;
   text-align: center;
 }
 
-.text3 {
+.cart__name{
   color: rgb(32, 32, 39);
   font-family: Montserrat;
   font-size: 32px;
@@ -250,19 +281,19 @@ a {
   line-height: 39px;
   letter-spacing: 0px;
   text-align: left;
-  margin-left: 16px;
+  margin-left: 32px;
   margin-top: 16px;
   margin-bottom: 20px;
 }
 
-.cart-box {
+.cart{
   margin-top: 40px;
   display: flex;
   gap: 32px;
      
 }
 
-.star12 {
+.module__star_big{
   position: absolute;
   transform: scale(1);
   transition: ls;
@@ -270,14 +301,14 @@ a {
   top: 88px;
 }
 
-.star11 {
+.module__star_upper{
   position: absolute;
   width: 32px;
   right: 1650px;
   top: 750px;
 }
 
-.star10 {
+.module__star_lower{
   top: 800px;
   position: absolute;
   width: 55px;
@@ -287,8 +318,7 @@ a {
 
 
 
-
-.mini-game{
+.product__title{
   font-family: Montserrat;
   font-size: 64px;
   font-weight: 700;
@@ -298,7 +328,7 @@ a {
 
 }
 
-.play{
+.button-play{
   width: 247px;
   height: 66px;
   padding: 16px 28px 16px 28px;
@@ -312,62 +342,58 @@ a {
   line-height: 34.01px;
   text-align: center;
   border: 1px solid rgb(32, 32, 39);
+  margin-top: 25px;
 }
 
-.play:hover{
+.button-play:hover{
    background-color: #fff;
    color: #202027;
    font-family: Montserrat;
 }
 
-.game{
+.product-game__picture{
    border-radius: 30px 30px 30px 30px;
 }
 
-.game1{
-  background-color: aliceblue;
+.product-game_number{
+  background: rgb(255, 255, 255);
   width: 1188px;
   height: 500px;
   border-radius: 52px;
   margin-top: 25px
 }
-.game1{
-  background-color: aliceblue;
+.product-game_arithmetic{
+  background: rgb(255, 255, 255);
   width: 1188px;
   height: 500px;
   border-radius: 52px;
   margin-top: 25px
 }
-.game2{
-  background-color: aliceblue;
+.product-game_text{
+  background: rgb(255, 255, 255);
   width: 1188px;
   height: 500px;
   border-radius: 52px;
   margin-top: 25px
 }
-.game3{
-  background-color: aliceblue;
+.product-game_vectoring{
+  background: rgb(255, 255, 255);
   width: 1188px;
   height: 500px;
   border-radius: 52px;
   margin-top: 25px
 }
-.game4{
-  background-color: aliceblue;
+.product-game_stone {
+  background: rgb(255, 255, 255);
   width: 1188px;
   height: 500px;
   border-radius: 52px;
-  margin-top: 25px
+  margin-top: 25px;
+  overflow: hidden;
 }
-.game5{
-  background-color: aliceblue;
-  width: 1188px;
-  height: 500px;
-  border-radius: 52px;
-  margin-top: 25px
-}
-.game6{
-  background-color: aliceblue;
+
+.product-game_generator{
+  background: rgb(255, 255, 255);
   width: 1188px;
   height: 500px;
   border-radius: 52px;
@@ -385,41 +411,55 @@ margin-left: 0px;
 width:600px;
 height: 500px;
 }
-
-.pole{
-  margin-top: -418px;
-  width: 399px;
-  height: 228px;
-  margin-left: 82px;
-}
-
-.pole1{
-  margin-top: -418px;
-  width: 544px;
-  height: 295px;
-  margin-left: 664px;
-}
-
-.pole3{
-  margin-top: -418px;
-  width: 493px;
-  height: 344px;
-  margin-left: 64px;
-}
-
-.pole4{
-  margin-top: -451px;
-  width: 515px;
-  height: 344px;
-  margin-left: 636px;
-}
- .for-box1{
+.product{
   height: 3400px;
   background-color: rgb(32, 32, 39);
   position: relative;
  }
 
-.title-game{
+.product-game__field{
+  margin-top: -448px;
+  width: 399px;
+  height: 228px;
+  margin-left: 82px;
+}
+
+.product-game__arithmetic{
+  margin-top: -448px;
+  width: 544px;
+  height: 295px;
+  margin-left: 664px;
+}
+
+.product-game__text{
+  margin-top: -448px;
+  width: 493px;
+  height: 344px;
+  margin-left: 64px;
+}
+
+.product-game__vectorihg{
+  margin-top: -448px;
+  width: 515px;
+  height: 344px;
+  margin-left: 636px;
+}
+
+.product-game__stone{
+  margin-top: -448px;
+  width: 493px;
+  height: 344px;
+  margin-left: 64px;
+}
+
+.product-game__generator{
+  margin-top: -448px;
+  width: 515px;
+  height: 344px;
+  margin-left: 636px;
+}
+
+.product-game__title{
   margin-bottom: 20px;
   font-family: Montserrat;
   font-size: 48px;
@@ -427,32 +467,13 @@ height: 500px;
   line-height: 58.51px;
   text-align: left;        
 }
-
-.title-game1{
-  margin-bottom: 20px;
-  font-family: Montserrat;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 58.51px;
-  text-align: left;        
-}
-
-.describe{
+.product-game__description{
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
   text-align: left;        
   margin-bottom: 10px;
-}
-
-.describe1{
-  font-family: Montserrat;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 32px;
-  text-align: left;        
-  margin-bottom: 20px;
 }
 
 .rules{
@@ -472,64 +493,39 @@ height: 500px;
   color: black;
 }
 
-.star-end1{
+.product__star_big{
   position: absolute;
     margin-left: 1180px;
     margin-top: -35px;
     width: 58px;
 }
 
-.star-end2{
+.product__star_little{
   position: absolute;
   margin-left: 1124px;
   margin-top: -61px;
   width: 36px;
 }
 
-.star-end3{
+.product__button_little{
   position: absolute;
   margin-left: 1104px;
   margin-top: 50px;
 }
 
-.star-end4{
+.product__button_big{
   position: absolute;
   margin-left: 1177px;
   margin-top: 4px;
 }
 
-.emoji{
-  position: absolute;
-  rotate: 7deg;
-  margin-left: -233px;
-  margin-top: 105px;
-  width: 90px;
-  height: 93px;
-}
 
-.emoji1{
-  position: absolute;
-  rotate: 5deg;
-  margin-left: 818px;
-  margin-top: -325px;
-  width: 143px;
-  height: 141px;
-}
+.footer{
+  background-color: #BDED35;
 
-.catalog{
-  font-family: Montserrat;
-  font-size: 94px;
-  font-weight: 600;
-  line-height: 39.26px;
-  text-align: center;
-  padding-top: 60px;
-  color: black;
-}
-.pol1{
-  background-color: rgb(225, 255, 143);
   height: 150px;
 }
-.polet{
+.footer__description{
   color: rgb(0, 0, 0);
 font-family: Montserrat;
 font-size: 24px;
@@ -539,6 +535,142 @@ letter-spacing: 0px;
 text-align: center;
 padding-top: 60px;
 }
+.text{
+  font-size: 30px;
+  color: #0f0f0f;
+  margin-top: 30px
+}
+.cart-img4-1{
+  margin-left: 110px;
+  position: relative;
+  top: -240px;
+}
+.cart__numbera{
+  margin-left: 32px;
+  margin-top: -146px;
+  background: rgb(247, 247, 247);
+  width: 111px;
+  height: 36px;
+  border-radius: 52.58px;
+  font-family: Montserrat;
+  text-align: center;
+  font-weight: 500;
+  line-height: 35px;
+  color: black;
+}
+.header1-tape{
+  position: relative;
+height: 90px;
+background: rgb(188, 236, 48);
+}
+.header-tape__item{
+color: rgb(32, 32, 39);
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+padding-left: 51px
+}
+
+.header-tape__game{
+  width: 36px;
+  height: 36px;
+  padding-left: 51px;
+  padding-top: 15px;
+
+}
+.header-game{
+      display: flex;
+      padding-top: 15px;
+      white-space: nowrap;
+      align-items: flex-start;
+  }
+
+#tape {
+  white-space: nowrap;  /* Запрещаем перенос строк */
+  position: absolute;   /* Абсолютное позиционирование */
+}
+#tape span {
+  margin-right: 40px;   /* Отступ между элементами */
+  font-size: 20px;      /* Размер текста */
+}
+
+
+.header1-tape {
+  padding-bottom: 20px; /* "задвигаем" scrollbar за границы */
+  margin-bottom: -20px; /* компенсируем padding */
+  overflow-y: hidden;
+}
+
+
+
+.header-game {
+  
+  animation: scroll 41s linear infinite;
+}
+.header-tape {
+  overflow: hidden;
+  position: relative;
+}
+.scrol{
+  scroll-behavior: smooth
+}
+
+.header-button {
+  transition: 
+    background-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+
+.header-button:hover {
+  background-color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.button-play {
+  transition: 
+    background-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+    scroll-behavior: smooth;
+}
+
+
+.button-play:hover {
+  background-color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+/* Базовые стили для всех карточек */
+.cart__left_upper, .cart__left_lower,
+.cart__center_upper, .cart__center_lower,
+.cart__right_upper, .cart__right_lower,
+.product-game {
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transform: translateY(0) scale(1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    opacity: 0.98;
+}
+
+/* Эффект при наведении на карточки в верхней сетке */
+.cart__left_upper:hover, .cart__left_lower:hover,
+.cart__center_upper:hover, .cart__center_lower:hover,
+.cart__right_upper:hover, .cart__right_lower:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    opacity: 1;
+}
+@keyframes scroll {
+  0% { transform: translate(0); }
+  0% { transform: translate(-100%); }
+}
+
 
     @import 'tablet';
     @import 'mobile';
+   
+
+
+
+

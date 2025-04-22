@@ -12,34 +12,25 @@
         letter-spacing: 0px;
         text-align: left;
       }
-.button2{
-  position: absolute;
+.multi-button{
+  position: static;
   margin-left: auto;
   margin-right: auto;
   width: 78px;
   height: 23px;
-  
+ 
 }
 
     
-.text1{
-    color: rgb(32, 32, 39);
-    font-family: Montserrat;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 49px;
-    text-align: center;  
+.header__text_big{
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
 }
 
-.ioi{
-    background-image: url(img/Vector1.svg);
-    background-repeat: no-repeat;
-    background-position: top -80px right -90px;
-    background-color: rgb(225, 255, 143);
-    block-size: 750px;
-}
-
-.block{
+.header__text_little{
     color: rgb(32, 32, 39);
     font-family: Montserrat;
     font-size: 16px;
@@ -48,64 +39,14 @@
     letter-spacing: 0px;
     text-align: center;
 }
-.multi-bg-example{
+.header{
   background-image: url(img/Vector1.svg);
   background-color: rgb(225, 255, 143);
   background-repeat: no-repeat;
   background-position: calc(90% + 120px) calc(2% - 110px);
 
 }
-.igra1{
-    position: absolute;
-    width: 21px;
-height: 21px;
-margin-left: 90px;
-}
-.igra2{
-    position: absolute;
-    width: 35px;
-    height: 35px;
-    right: 550px;
-}
-.igra3{
-    position: absolute;
-    width: 51px;
-    height: px;
-    margin-left: 450px;
-    margin-top: 190px;
-}
-.igra4{
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    margin-left: 390px;
-    margin-top: 150px;
-}
-  
-.for-box{
-    display: none;
-}
-.for-box1{
-    height: 3700px;
-}
-.game1 {
-    background-color: #fff;
-    width: 342px;
-    margin-top: 36px;
-    border-radius: 30px;
-    height: 565px;
-  }
-  
-  .game-img1 {
-    margin-left: -1px;
-    width: 343px;
-    height: 283px;
-  }
-  .game-img2 {
-    margin-left: -1px;
-    width: 343px;
-    height: 283px;
-  }
+
   .title-game {
     color: rgb(32, 32, 39);
     font-family: Montserrat;
